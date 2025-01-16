@@ -6,9 +6,11 @@
     "house_types": 유형(행복 주택, 공공 임대 등),
     "default_residence_period": 기본 거주 기간,
     "schedule": {
-        "announcement_date": 모집 공고일,
-        "general_supply_date": 일반 공급 날짜,
-        "winner_announcement_date": 당첨자 발표일
+        "announcement_date": "2025-01-13"(모집 공고일),
+        "general_supply_date": ["2025-01-23", "2025-01-23"](일반 공급 날짜),
+        "winner_announcement_date": "2025-03-31"(당첨자 발표일),
+        "document_submission_deadline": ["2025-01-23", "2025-01-23"](서류 접수 기간),
+        "submission_candidate_announcement_date": "2025-03-31"(서류 제출 대상자 발표일)
     },
     "complex_info": [
         {

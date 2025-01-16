@@ -32,42 +32,30 @@ def create_json_file(result_data):
 
 # 타입 확인 
 def find_type():
-    wait = WebDriverWait(driver, 10)
     try:
-        # ul 요소가 로드될 때까지 대기
-        ul_element = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="sub_container"]/section[2]/div[1]/ul')))
-        
-        # ul 안의 모든 li 요소 찾기
-        li_elements = ul_element.find_elements(By.TAG_NAME, "li")
+        ul_xpath = '//*[@id="sub_container"]/section[2]/div[1]/ul'
 
-        # li 요소가 있을 경우 하나씩 클릭
-        for index, li in enumerate(li_elements):
+        # 해당 ul 안에 있는 li 요소들의 XPath를 찾을 수 있습니다.
+        li_elements = driver.find_elements(By.XPATH, f"{ul_xpath}/li")
+
+        # 각 li의 텍스트 출력
+        for li in li_elements:
             try:
-                # a 태그가 존재하는지 확인
-                a_tag = li.find_element(By.TAG_NAME, "a") # li 안의 a 태그 찾기
+                # li 안에 있는 a 태그 찾기
+                a_tag = li.find_element(By.TAG_NAME, "a")
                 
-                # 클릭 가능한 상태라면 클릭
+                # a 태그가 존재하면 클릭
                 if a_tag:
                     a_tag.click()
-                    print(f"{index + 1}번째 <li> 텍스트: {a_tag.text} - 클릭")
-                    
-                    # 클릭 후 잠시 대기 (페이지 로딩 시간 고려)
-                    time.sleep(2)  # 필요에 따라 조정
-                    
-                    # 이전 페이지로 돌아가기 (필요에 따라)
-                    driver.back()
-                    
-                    # 페이지 로드 대기
-                    wait.until(EC.presence_of_element_located((By.XPATH, "//ul")))
-                else:
-                    print(f"{index + 1}번째 <li> 텍스트: {a_tag.text} - 클릭할 수 없음")
+                    print(f"{a_tag.text} 클릭됨")
+                    time.sleep(2)  # 클릭 후 잠시 대기 (필요에 따라 조정)
             except Exception as e:
-                print(f"{index + 1}번째 <li> 처리 중 오류 발생: {e}")
-                continue
+                print(f"li 클릭 중 오류 발생: {e}")
             
+    except NoSuchElementException as e:
+        print("ul 요소가 존재하지 않습니다.")  # ul이 없을 때 처리
     except Exception as e:
-    # ul 요소가 없음
-        print("ul 요소 X")
+        print(f"오류 발생: {e}")  # 그 외의 예외 처리
                 
 # 정보 긁어오기
 def info_scrap():
@@ -123,7 +111,6 @@ def click_elements():
                         # 작업 후 페이지 로딩 대기
                         time.sleep(2)  # 클릭 후 로드 대기 (필요 시 WebDriverWait 대체 가능)
                         find_type()
-                        #info_scrap()
                         driver.back()  # 이전 페이지로 이동
 
                         # 페이지 로드 대기
