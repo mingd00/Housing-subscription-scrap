@@ -2,6 +2,14 @@
 
 ```json
 {
+    "agencyType": 기관(LH, IH 등),
+    "house_types": 유형(행복 주택, 공공 임대 등),
+    "default_residence_period": 기본 거주 기간,
+    "schedule": {
+        "announcement_date": 모집 공고일,
+        "general_supply_date": 일반 공급 날짜,
+        "winner_announcement_date": 당첨자 발표일
+    },
     "complex_info": [
         {
             "complex_name": "단지 이름1",
@@ -37,12 +45,6 @@
         },
 
     ],
-
-    "schedule": {
-        "announcement_date": 모집 공고일,
-        "general_supply_date": 일반 공급 날짜,
-        "winner_announcement_date": 당첨자 발표일
-    },
 
     "housing_supply"(임대 가격): [
         {

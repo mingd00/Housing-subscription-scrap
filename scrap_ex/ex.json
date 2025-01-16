@@ -1,4 +1,12 @@
 {
+    "agencyType": "LH",
+    "house_types": "행복주택",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-13",
+        "general_supply_date": "2025-01-23",
+        "winner_announcement_date": "2025-03-31"
+    },
     "complex_info": [
         {
             "complex_name": "완주삼봉A-1BL",
@@ -9,7 +17,7 @@
                     "current_supply": 18,
                     "exclusive_area_m2": 21.39,
                     "heating": "개별난방",
-                    "images": "/images/완주삼봉(A1,A3BL)//A1/21A.jpg"
+                    "images": "/images/완주삼봉(A1,A3BL)/A1/21A.jpg"
                 },
                 {
                     "type": "26A1",
@@ -21,7 +29,12 @@
                 },
                 {
                     "type": "26B",
-                    "eligible_residents": ["대학생", "청년", "고령자", "주거급여수급자"],
+                    "eligible_residents": [
+                        "대학생(주거약자용)",
+                        "청년(주거약자용)",
+                        "고령자(주거약자용)",
+                        "주거급여수급자(주거약자용)"
+                    ],
                     "current_supply": 6,
                     "exclusive_area_m2": 26.72,
                     "heating": "개별난방",
@@ -55,11 +68,6 @@
             }
         }
     ],
-    "schedule": {
-        "announcement_date": "2025-01-13",
-        "general_supply_date": "2025-01-23",
-        "winner_announcement_date": "2025-03-31"
-    },
     "housing_supply": [
         {
             "block": "완주 삼봉 A-1BL",
@@ -138,7 +146,80 @@
                     ]
                 },
                 {
-                    "type": "26A1, 26B (주거 약자용)",
+                    "type": "26A1",
+                    "target": [
+                        {
+                            "group": "대학생, 청년(소득×)",
+                            "deposit_limit": 13158000,
+                            "contract": {
+                                "total_deposit": 13158000,
+                                "down_payment": 500000,
+                                "balance": 12658000,
+                                "monthly_rent": 65790
+                            },
+                            "converted": {
+                                "deposit": {
+                                    "amount": 10000000,
+                                    "balance": 3158000,
+                                    "monthly_rent": 94950
+                                }
+                            }
+                        },
+                        {
+                            "group": "청년(소득○)",
+                            "deposit_limit": 13932000,
+                            "contract": {
+                                "total_deposit": 13932000,
+                                "down_payment": 500000,
+                                "balance": 13432000,
+                                "monthly_rent": 69660
+                            },
+                            "converted": {
+                                "deposit": {
+                                    "amount": 11000000,
+                                    "balance": 2932000,
+                                    "monthly_rent": 101740
+                                }
+                            }
+                        },
+                        {
+                            "group": "고령자",
+                            "deposit_limit": 14706000,
+                            "contract": {
+                                "total_deposit": 14706000,
+                                "down_payment": 500000,
+                                "balance": 14206000,
+                                "monthly_rent": 73530
+                            },
+                            "converted": {
+                                "deposit": {
+                                    "amount": 12000000,
+                                    "balance": 2706000,
+                                    "monthly_rent": 108530
+                                }
+                            }
+                        },
+                        {
+                            "group": "주거급여수급자",
+                            "deposit_limit": 11610000,
+                            "contract": {
+                                "total_deposit": 11610000,
+                                "down_payment": 500000,
+                                "balance": 11110000,
+                                "monthly_rent": 58050
+                            },
+                            "converted": {
+                                "deposit": {
+                                    "amount": 9000000,
+                                    "balance": 2610000,
+                                    "monthly_rent": 84300
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "26B",
                     "target": [
                         {
                             "group": "대학생, 청년(소득×)",
