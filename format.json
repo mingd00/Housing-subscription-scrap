@@ -1,0 +1,20 @@
+{
+    "agencyType": "LH",
+    "house_type": null,
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": null,
+        "application_period": null,
+        "winner_announcement_date": null,
+        "contract_period": null,
+        "document_submission_deadline": null,
+        "submission_candidate_announcement_date": null
+    },
+    "reception_information": {
+        "address": null,
+        "phone_number": null,
+        "operating_period": null
+    },
+    "complex_info": [],
+    "housing_supply": []
+}
