@@ -1,0 +1,148 @@
+{
+    "agencyType": "LH",
+    "house_type": "영구임대",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-13",
+        "application_period": ["2025-02-03", "2025-02-07"],
+        "winner_announcement_date": "2025-04-25",
+        "contract_period": null,
+        "document_submission_deadline": null,
+        "submission_candidate_announcement_date": null
+    },
+    "reception_information": {
+        "address": "경기도 평택시 평택로 22(합정동,주공아파트 3단지)",
+        "phone_number": "1600-1004",
+        "operating_period": ["2025-01-13", "2025-02-07"]
+    },
+    "complex_info": [
+        {
+            "complex_name": "평택합정3 영구임대",
+            "location": "경기도 평택시 평택로 22(합정동,주공아파트 3단지)",
+            "heating": "개별가스난방",
+            "units": [
+                {
+                    "type": "26.34",
+                    "eligible_residents": null,
+                    "current_supply": "47",
+                    "exclusive_area_m2": "26.34",
+                    "images": "images/평택합정3/26.34.jpg"
+                },
+                {
+                    "type": "30.48",
+                    "eligible_residents": null,
+                    "current_supply": "50",
+                    "exclusive_area_m2": "26.34",
+                    "images": "images/평택합정3/30.48.jpg"
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": null,
+                "complex_site_plan": null,
+                "unit_layout_plan": null
+            }
+        }
+    ],
+    "housing_supply": [
+        {
+            "block": "평택합정3",
+            "types": [
+                {
+                    "type": "26.34",
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "total_deposit": 2477000,
+                                "down_payment": 123850,
+                                "balance": 2353150,
+                                "monthly_rent": 49250
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": null,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": null,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "total_deposit": 4217000,
+                                "down_payment": 210850,
+                                "balance": 4006150,
+                                "monthly_rent": 78280
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": null,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": null,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "30.48",
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "total_deposit": 2867000,
+                                "down_payment": 143350,
+                                "balance": 2723650,
+                                "monthly_rent": 56990
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": null,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": null,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "total_deposit": 4880000,
+                                "down_payment": 244000,
+                                "balance": 4636000,
+                                "monthly_rent": 90580
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": null,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": null,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

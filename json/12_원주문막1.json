@@ -1,0 +1,139 @@
+{
+    "agencyType": "LH",
+    "house_type": "국민임대",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2024-12-23",
+        "application_period": ["2025-01-08", "2025-01-22"],
+        "winner_announcement_date": "2025-01-22",
+        "contract_period": null,
+        "document_submission_deadline": null,
+        "submission_candidate_announcement_date": "2025-01-22"
+    },
+    "reception_information": {
+        "address": "강원특별자치도 원주시 문막읍 원문로 1684(원주문막주공아파트) 관리사무소",
+        "phone_number": "0337340180",
+        "operating_period": ["2025-01-08", "2025-01-22"]
+    },
+    "complex_info": [
+        {
+            "complex_name": "원주문막1",
+            "location": "강원특별자치도 원주시 문막읍 원문로 1684(원주문막주공아파트)",
+            "heating": "개별가스난방",
+            "units": [
+                {
+                    "type": "39",
+                    "eligible_residents": null,
+                    "current_supply": "20",
+                    "exclusive_area_m2": "39.54",
+                    "images": "images/원주문막1/39.jpg"
+                },
+                {
+                    "type": "46A",
+                    "eligible_residents": null,
+                    "current_supply": "50",
+                    "exclusive_area_m2": "46.79",
+                    "images": "images/원주문막1/46A.jpg"
+                },
+                {
+                    "type": "51",
+                    "eligible_residents": null,
+                    "current_supply": "50",
+                    "exclusive_area_m2": "51.93",
+                    "images": "images/원주문막1/51.jpg"
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": "images/원주문막1/complex_overview.jpg",
+                "complex_site_plan": null,
+                "unit_layout_plan": null
+            }
+        }
+    ],
+    "housing_supply": [
+        {
+            "block": "원주문막1",
+            "types": [
+                {
+                    "type": "39",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 14821000,
+                                "down_payment": 741050,
+                                "balance": 14079950,
+                                "monthly_rent": 106440
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 7000000,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 21821000,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": 65600,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "46A",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 21558000,
+                                "down_payment": 1077900,
+                                "balance": 20480100,
+                                "monthly_rent": 141480
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 13000000,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 34558000,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": 68330,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "51",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 25603000,
+                                "down_payment": 1280150,
+                                "balance": 24322850,
+                                "monthly_rent": 185950
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 19000000,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 44603000,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": 75110,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

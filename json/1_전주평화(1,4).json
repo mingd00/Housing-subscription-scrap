@@ -1,0 +1,178 @@
+{
+    "agencyType": "LH",
+    "house_type": "영구임대",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-15",
+        "application_period": ["2025-02-07", "2025-02-14"],
+        "winner_announcement_date": "2025-06-26",
+        "contract_period": null,
+        "document_submission_deadline": null,
+        "submission_candidate_announcement_date": null
+    },
+    "reception_information": {
+        "address": "전주시 거주지 행정복지센터(구, 주민센터)",
+        "phone_number": "전주시 거주지 행정복지센터(구, 주민센터)",
+        "operating_period": ["2025-02-07", "2025-02-14"]
+    },
+    "complex_info": [
+        {
+            "complex_name": "전주평화주공1단지",
+            "location": "전북특별자치도 전주시 완산구 덕적골2길 25(평화동1가,주공아파트)",
+            "heating": "중앙가스난방",
+            "units": [
+                {
+                    "type": "39.8800",
+                    "eligible_residents": null,
+                    "current_supply": "411",
+                    "exclusive_area_m2": "26.37",
+                    "images": null
+                },
+                {
+                    "type": "44.1400",
+                    "eligible_residents": null,
+                    "current_supply": "5",
+                    "exclusive_area_m2": "31.32",
+                    "images": null
+                },
+                {
+                    "type": "56.8300",
+                    "eligible_residents": null,
+                    "current_supply": "5",
+                    "exclusive_area_m2": "40.32",
+                    "images": null
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": null,
+                "complex_site_plan": null,
+                "unit_layout_plan": null
+            }
+        },
+        {
+            "complex_name": "전주평화4 영구임대주택",
+            "location": "전북특별자치도 전주시 완산구 모악로 4726(평화동2가,전주평화주공4단지아파트)",
+            "heating": "중앙가스난방",
+            "units": [
+                {
+                    "type": "39.6011",
+                    "eligible_residents": null,
+                    "current_supply": "200",
+                    "exclusive_area_m2": "26.37",
+                    "images": null
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": null,
+                "complex_site_plan": null,
+                "unit_layout_plan": null
+            }
+        }
+    ],
+    "housing_supply": [
+        {
+            "block": "전주 평화 1단지",
+            "types": [
+                {
+                    "type": "26.37",
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "total_deposit": 2480000,
+                                "down_payment": 124000,
+                                "balance": 2356000,
+                                "monthly_rent": 49310
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "total_deposit": 4222000,
+                                "down_payment": 211100,
+                                "balance": 3830800,
+                                "monthly_rent": 78370
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "31.32",
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "total_deposit": 2946000,
+                                "down_payment": 1473000,
+                                "balance": 2798700,
+                                "monthly_rent": 58560
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "total_deposit": 5014000,
+                                "down_payment": 2507000,
+                                "balance": 4763300,
+                                "monthly_rent": 93080
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "40.32",
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "total_deposit": 3793000,
+                                "down_payment": 189600,
+                                "balance": 3603400,
+                                "monthly_rent": 75390
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "total_deposit": 6455000,
+                                "down_payment": 322700,
+                                "balance": 6132300,
+                                "monthly_rent": 119830
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "block": "전주 평화 4단지",
+            "types": [
+                {
+                    "type": "26.37",
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "total_deposit": 2480000,
+                                "down_payment": 124000,
+                                "balance": 2356000,
+                                "monthly_rent": 49310
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "total_deposit": 9423000,
+                                "down_payment": 471100,
+                                "balance": 8951900,
+                                "monthly_rent": 134290
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

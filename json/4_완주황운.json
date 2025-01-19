@@ -1,0 +1,172 @@
+{
+    "agencyType": "LH",
+    "house_type": "국민임대",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-09",
+        "application_period": ["2025-01-21", "2025-01-23"],
+        "winner_announcement_date": "2025-04-18",
+        "contract_period": ["2025-04-28", "2025-04-30"],
+        "document_submission_deadline": ["2025-02-05", "2025-02-07"],
+        "submission_candidate_announcement_date": "2025-02-04"
+    },
+    "reception_information": {
+        "address": "전북특별자치도 완주군 소양면 소양로 161 소양면 행정복지센터 1층 대회의실",
+        "phone_number": "1600-1004",
+        "operating_period": ["2025-01-23", "2025-01-23"]
+    },
+    "complex_info": [
+        {
+            "complex_name": "완주황운(마을정비형)",
+            "location": "전북특별자치도 완주군 소양면 황운리 837",
+            "heating": "",
+            "units": [
+                {
+                    "type": "29A",
+                    "eligible_residents": null,
+                    "current_supply": "12",
+                    "exclusive_area_m2": "29.85",
+                    "images": "images/완주황운/29A.jpg"
+                },
+                {
+                    "type": "29B",
+                    "eligible_residents": null,
+                    "current_supply": "4",
+                    "exclusive_area_m2": "29.85",
+                    "images": "images/완주황운/29B.jpg"
+                },
+                {
+                    "type": "33",
+                    "eligible_residents": null,
+                    "current_supply": "10",
+                    "exclusive_area_m2": "33.5",
+                    "images": "images/완주황운/33.jpg"
+                },
+                {
+                    "type": "46",
+                    "eligible_residents": null,
+                    "current_supply": "24",
+                    "exclusive_area_m2": "46.19",
+                    "images": "images/완주황운/46.jpg"
+                }
+            ],
+            "house_images": {
+                "location_map": "images/완주황운/location_mapjpg",
+                "complex_overview": "images/완주황운/complex_overview.jpg",
+                "complex_site_plan": "images/완주황운/complex_site_plan.jpg",
+                "unit_layout_plan": "images/완주황운/unit_layout_plan.jpg"
+            }
+        }
+    ],
+    "housing_supply": [
+        {
+            "block": "완주황운",
+            "types": [
+                {
+                    "type": "29A",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 9702000,
+                                "down_payment": 485000,
+                                "balance": 9217000,
+                                "monthly_rent": 136710
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 13000000,
+                                    "minus": 6000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 22702000,
+                                    "balance_minus": 3702000,
+                                    "monthly_rent_plus": 60870,
+                                    "monthly_rent_minus": 154210
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "29B",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 9702000,
+                                "down_payment": 485000,
+                                "balance": 9217000,
+                                "monthly_rent": 136710
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 13000000,
+                                    "minus": 6000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 22702000,
+                                    "balance_minus": 3702000,
+                                    "monthly_rent_plus": 60870,
+                                    "monthly_rent_minus": 154210
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "33",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 11418000,
+                                "down_payment": 570000,
+                                "balance": 10848000,
+                                "monthly_rent": 154990
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 15000000,
+                                    "minus": 7000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 26418000,
+                                    "balance_minus": 4418000,
+                                    "monthly_rent_plus": 67490,
+                                    "monthly_rent_minus": 175400
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "46",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 26030000,
+                                "down_payment": 1301000,
+                                "balance": 24729000,
+                                "monthly_rent": 236330
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 23000000,
+                                    "minus": 19000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 49030000,
+                                    "balance_minus": 7030000,
+                                    "monthly_rent_plus": 102160,
+                                    "monthly_rent_minus": 291740
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "agencyType": "LH",
+    "house_type": "영구임대",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-16",
+        "application_period": ["2025-02-03", "2025-02-14"],
+        "winner_announcement_date": "2025-05-16",
+        "contract_period": null,
+        "document_submission_deadline": null,
+        "submission_candidate_announcement_date": null
+    },
+    "reception_information": {
+        "address": null,
+        "phone_number": "041-936-0653",
+        "operating_period": ["2025-01-13", "2025-01-13"]
+    },
+    "complex_info": [
+        {
+            "complex_name": "보령명천2단지 영구임대",
+            "location": "충청남도 보령시 주공로 50(명천동,주공아파트)",
+            "heating": "중앙가스난방",
+            "units": [
+                {
+                    "type": "39.1200",
+                    "eligible_residents": null,
+                    "current_supply": "110",
+                    "exclusive_area_m2": "26.37",
+                    "images": null
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": null,
+                "complex_site_plan": null,
+                "unit_layout_plan": null
+            }
+        }
+    ],
+    "housing_supply": [
+        {
+            "block": "보령명천2단지",
+            "types": [
+                {
+                    "type": "26",
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "total_deposit": 2354000,
+                                "down_payment": 117700,
+                                "balance": 2236300,
+                                "monthly_rent": 46850
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance": null,
+                                    "monthly_rent": null
+                                }
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "total_deposit": 8724000,
+                                "down_payment": 436200,
+                                "balance": 8287800,
+                                "monthly_rent": 134040
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance": null,
+                                    "monthly_rent": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

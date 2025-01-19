@@ -1,0 +1,106 @@
+{
+    "agencyType": "LH",
+    "house_type": "국민임대",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-09",
+        "application_period": ["2025-01-20", "2025-01-23"],
+        "winner_announcement_date": null,
+        "contract_period": null,
+        "document_submission_deadline": null,
+        "submission_candidate_announcement_date": null
+    },
+    "reception_information": {
+        "address": "전북특별자치도 김제시 하동1길 127(하동,김제하동주공아파트)",
+        "phone_number": "063-545-0440",
+        "operating_period": ["2025-01-20", "2025-01-23"]
+    },
+    "complex_info": [
+        {
+            "complex_name": "김제하동 고령자용 국민임대주택",
+            "location": "전북특별자치도 김제시 하동1길 127(하동,김제하동주공아파트)",
+            "heating": "개별가스난방",
+            "units": [
+                {
+                    "type": "60",
+                    "eligible_residents": null,
+                    "current_supply": "5",
+                    "exclusive_area_m2": "34.28",
+                    "images": "images/김제하동/60.png"
+                },
+                {
+                    "type": "75",
+                    "eligible_residents": null,
+                    "current_supply": "15",
+                    "exclusive_area_m2": "42.87",
+                    "images": "images/김제하동/75.png"
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": null,
+                "complex_site_plan": null,
+                "unit_layout_plan": null
+            }
+        }
+    ],
+    "housing_supply": [
+        {
+            "block": "김제하동",
+            "types": [
+                {
+                    "type": "34",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 17517000,
+                                "down_payment": 875900,
+                                "balance": 16641100,
+                                "monthly_rent": 114510
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": null,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": null,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "42",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 24431000,
+                                "down_payment": 1221600,
+                                "balance": 23209400,
+                                "monthly_rent": 146560
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": null,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": null,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,447 @@
+{
+    "agencyType": "LH",
+    "house_type": "행복주택",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-13",
+        "application_period": ["2025-01-23", "2025-01-23"],
+        "winner_announcement_date": "2025-01-23",
+        "contract_period": ["2025-01-23", "2025-01-23"],
+        "document_submission_deadline": null,
+        "submission_candidate_announcement_date": null
+    },
+    "reception_information": {
+        "address": "전북특별자치도 전주시 완산구 홍산로 158(효자동2가) LH전북지역본부 별관2층 통합접수센터(동호지정 및 계약체결)",
+        "phone_number": "1600-1004",
+        "operating_period": ["2025-01-23", "2025-01-23"]
+    },
+    "complex_info": [
+        {
+            "complex_name": "완주삼봉 행복주택",
+            "location": "전북특별자치도 완주군 삼례읍 삼봉5로 60",
+            "heating": "개별난방",
+            "units": [
+                {
+                    "type": "21A형",
+                    "eligible_residents": ["대학생", "청년", "고령자", "주거급여수급자"],
+                    "current_supply": "18",
+                    "exclusive_area_m2": "21.39",
+                    "images": "/images/완주삼봉(A1,A3BL)/A1/21A.jpg"
+                },
+                {
+                    "type": "26A1형",
+                    "eligible_residents": ["대학생", "청년", "고령자", "주거급여수급자"],
+                    "current_supply": "7",
+                    "exclusive_area_m2": "26.84",
+                    "images": "/images/완주삼봉(A1,A3BL)/A1/26A1.jpg"
+                },
+                {
+                    "type": "26B형",
+                    "eligible_residents": [
+                        "대학생(주거약자용)",
+                        "청년(주거약자용)",
+                        "고령자(주거약자용)",
+                        "주거급여수급자(주거약자용)"
+                    ],
+                    "current_supply": "6",
+                    "exclusive_area_m2": "26.72",
+                    "images": "/images/완주삼봉(A1,A3BL)/A1/26B.jpg"
+                }
+            ],
+            "house_images": {
+                "location_map": "/images/완주삼봉(A1,A3BL)/A1/location_map.jpg",
+                "complex_overview": "/images/완주삼봉(A1,A3BL)/A1/complex_overview.jpg",
+                "complex_site_plan": "/images/완주삼봉(A1,A3BL)/A1/complex_site_plan.jpg",
+                "unit_layout_plan": "/images/완주삼봉(A1,A3BL)/A1/unit_layout_plan.jpg"
+            }
+        },
+        {
+            "complex_name": "완주삼봉A-3블록 행복주택",
+            "location": "전북특별자치도 완주군 삼례읍 삼봉5로 55 완주삼봉3LH아파트",
+            "heating": "",
+            "units": [
+                {
+                    "type": "16형",
+                    "eligible_residents": ["대학생", "청년", "고령자", "주거급여수급자"],
+                    "current_supply": "23",
+                    "exclusive_area_m2": "16.54",
+                    "images": "/images/완주삼봉(A1,A3BL)/A3BL/16.jpg"
+                }
+            ],
+            "house_images": {
+                "location_map": "/images/완주삼봉(A1,A3BL)/A3BL/location_map.jpg",
+                "complex_overview": "/images/완주삼봉(A1,A3BL)/A3BL/complex_overview.jpg",
+                "complex_site_plan": "/images/완주삼봉(A1,A3BL)/A3BL/complex_site_plan.jpg",
+                "unit_layout_plan": "/images/완주삼봉(A1,A3BL)/A3BL/unit_layout_plan.jpg"
+            }
+        }
+    ],
+    "housing_supply": [
+        {
+            "block": "완주 삼봉 A-1BL",
+            "types": [
+                {
+                    "type": "21A",
+                    "target": [
+                        {
+                            "group": "대학생, 청년(소득×)",
+                            "contract": {
+                                "total_deposit": 10710000,
+                                "down_payment": 8000000,
+                                "balance": 2710000,
+                                "monthly_rent": 76880
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 8000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 10710000,
+                                    "balance_minus": 2710000,
+                                    "monthly_rent_plus": 53550,
+                                    "monthly_rent_minus": 76880
+                                }
+                            }
+                        },
+                        {
+                            "group": "청년(소득○)",
+                            "contract": {
+                                "total_deposit": 11340000,
+                                "down_payment": 500000,
+                                "balance": 10840000,
+                                "monthly_rent": 56700
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 9000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 11340000,
+                                    "balance_minus": 2340000,
+                                    "monthly_rent_plus": 56700,
+                                    "monthly_rent_minus": 82950
+                                }
+                            }
+                        },
+                        {
+                            "group": "고령자",
+                            "contract": {
+                                "total_deposit": 11970000,
+                                "down_payment": 500000,
+                                "balance": 11470000,
+                                "monthly_rent": 59850
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 9000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 11970000,
+                                    "balance_minus": 297000,
+                                    "monthly_rent_plus": 59850,
+                                    "monthly_rent_minus": 86100
+                                }
+                            }
+                        },
+                        {
+                            "group": "주거급여수급자",
+                            "contract": {
+                                "total_deposit": 9450000,
+                                "down_payment": 500000,
+                                "balance": 8950000,
+                                "monthly_rent": 47250
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 7000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 9450000,
+                                    "balance_minus": 2450000,
+                                    "monthly_rent_plus": 47250,
+                                    "monthly_rent_minus": 67660
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "26A1",
+                    "target": [
+                        {
+                            "group": "대학생, 청년(소득×)",
+                            "contract": {
+                                "total_deposit": 13158000,
+                                "down_payment": 500000,
+                                "balance": 12658000,
+                                "monthly_rent": 65790
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 10000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 13158000,
+                                    "balance_minus": 3158000,
+                                    "monthly_rent_plus": 65790,
+                                    "monthly_rent_minus": 94950
+                                }
+                            }
+                        },
+                        {
+                            "group": "청년(소득○)",
+                            "contract": {
+                                "total_deposit": 13932000,
+                                "down_payment": 500000,
+                                "balance": 13432000,
+                                "monthly_rent": 69660
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 1000000,
+                                    "minus": 11000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 14932000,
+                                    "balance_minus": 2932000,
+                                    "monthly_rent_plus": 63620,
+                                    "monthly_rent_minus": 101740
+                                }
+                            }
+                        },
+                        {
+                            "group": "고령자",
+                            "contract": {
+                                "total_deposit": 14706000,
+                                "down_payment": 500000,
+                                "balance": 14206000,
+                                "monthly_rent": 73530
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 2000000,
+                                    "minus": 12000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 16706000,
+                                    "balance_minus": 2706000,
+                                    "monthly_rent_plus": 61860,
+                                    "monthly_rent_minus": 108530
+                                }
+                            }
+                        },
+                        {
+                            "group": "주거급여수급자",
+                            "contract": {
+                                "total_deposit": 11610000,
+                                "down_payment": 500000,
+                                "balance": 11110000,
+                                "monthly_rent": 58050
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 9000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 11610000,
+                                    "balance_minus": 2610000,
+                                    "monthly_rent_plus": 58050,
+                                    "monthly_rent_minus": 84300
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "26B",
+                    "target": [
+                        {
+                            "group": "대학생, 청년(소득×)",
+                            "contract": {
+                                "total_deposit": 13158000,
+                                "down_payment": 500000,
+                                "balance": 12658000,
+                                "monthly_rent": 65790
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 10000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 13158000,
+                                    "balance_minus": 3158000,
+                                    "monthly_rent_plus": 65790,
+                                    "monthly_rent_minus": 94950
+                                }
+                            }
+                        },
+                        {
+                            "group": "청년(소득○)",
+                            "contract": {
+                                "total_deposit": 13932000,
+                                "down_payment": 500000,
+                                "balance": 13432000,
+                                "monthly_rent": 69660
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 1000000,
+                                    "minus": 11000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 14932000,
+                                    "balance_minus": 2932000,
+                                    "monthly_rent_plus": 63620,
+                                    "monthly_rent_minus": 101740
+                                }
+                            }
+                        },
+                        {
+                            "group": "고령자",
+                            "contract": {
+                                "total_deposit": 14706000,
+                                "down_payment": 500000,
+                                "balance": 14206000,
+                                "monthly_rent": 73530
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": 2000000,
+                                    "minus": 12000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 16706000,
+                                    "balance_minus": 2706000,
+                                    "monthly_rent_plus": 61860,
+                                    "monthly_rent_minus": 108530
+                                }
+                            }
+                        },
+                        {
+                            "group": "주거급여수급자",
+                            "contract": {
+                                "total_deposit": 11610000,
+                                "down_payment": 500000,
+                                "balance": 11110000,
+                                "monthly_rent": 58050
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 9000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 11610000,
+                                    "balance_minus": 2610000,
+                                    "monthly_rent_plus": 58050,
+                                    "monthly_rent_minus": 84300
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "block": "완주 삼봉 A-3BL",
+            "types": [
+                {
+                    "type": "16",
+                    "target": [
+                        {
+                            "group": "대학생, 청년(소득×)",
+                            "contract": {
+                                "total_deposit": 9214000,
+                                "down_payment": 500000,
+                                "balance": 8714000,
+                                "monthly_rent": 46070
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 7000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 9214000,
+                                    "balance_minus": 2214000,
+                                    "monthly_rent_plus": 46070,
+                                    "monthly_rent_minus": 66480
+                                }
+                            }
+                        },
+                        {
+                            "group": "청년(소득○)",
+                            "contract": {
+                                "total_deposit": 9756000,
+                                "down_payment": 500000,
+                                "balance": 9256000,
+                                "monthly_rent": 48780
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 8000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 9756000,
+                                    "balance_minus": 1756000,
+                                    "monthly_rent_plus": 48780,
+                                    "monthly_rent_minus": 72110
+                                }
+                            }
+                        },
+                        {
+                            "group": "고령자",
+                            "contract": {
+                                "total_deposit": 10298000,
+                                "down_payment": 500000,
+                                "balance": 9798000,
+                                "monthly_rent": 51490
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 8000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 10298000,
+                                    "balance_minus": 2298000,
+                                    "monthly_rent_plus": 51490,
+                                    "monthly_rent_minus": 74820
+                                }
+                            }
+                        },
+                        {
+                            "group": "주거급여수급자",
+                            "contract": {
+                                "total_deposit": 8130000,
+                                "down_payment": 500000,
+                                "balance": 7630000,
+                                "monthly_rent": 40650
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": 6000000
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": 8130000,
+                                    "balance_minus": 2130000,
+                                    "monthly_rent_plus": 40650,
+                                    "monthly_rent_minus": 58150
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
