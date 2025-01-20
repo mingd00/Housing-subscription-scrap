@@ -338,37 +338,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "block": "대야보라무지개",
-            "types": [
-                {
-                    "type": "58",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 19022000,
-                                "down_payment": 500000,
-                                "balance": 18522000,
-                                "monthly_rent": 112930
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

@@ -17,7 +17,7 @@
     },
     "complex_info": [
         {
-            "complex_name": "보령명천2단지 영구임대",
+            "complex_name": "보령명천2단지",
             "location": "충청남도 보령시 주공로 50(명천동,주공아파트)",
             "heating": "중앙가스난방",
             "units": [
@@ -42,7 +42,7 @@
             "block": "보령명천2단지",
             "types": [
                 {
-                    "type": "26",
+                    "type": "39.1200",
                     "target": [
                         {
                             "group": "가군(생계·의료급여수급자 등)",

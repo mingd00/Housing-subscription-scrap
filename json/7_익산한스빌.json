@@ -17,7 +17,7 @@
     },
     "complex_info": [
         {
-            "complex_name": "한국토지주택공사 전북지역본부",
+            "complex_name": "익산한스빌",
             "location": "전북특별자치도 익산시 목천로 30-14(목천동,한스빌아파트) 30-14 (한스빌아파트)",
             "heating": "개별가스난방",
             "units": [
@@ -42,7 +42,7 @@
             "block": "익산한스빌",
             "types": [
                 {
-                    "type": "26A",
+                    "type": "26",
                     "target": [
                         {
                             "group": null,

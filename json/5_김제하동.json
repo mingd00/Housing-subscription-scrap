@@ -46,10 +46,10 @@
     ],
     "housing_supply": [
         {
-            "block": "김제하동",
+            "block": "김제하동 고령자용 국민임대주택",
             "types": [
                 {
-                    "type": "34",
+                    "type": "60",
                     "target": [
                         {
                             "group": null,
@@ -75,7 +75,7 @@
                     ]
                 },
                 {
-                    "type": "42",
+                    "type": "75",
                     "target": [
                         {
                             "group": null,

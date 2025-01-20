@@ -86,38 +86,7 @@
     ],
     "housing_supply": [
         {
-            "block": "산북부향1차",
-            "types": [
-                {
-                    "type": "39",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9059000,
-                                "down_payment": 300000,
-                                "balance": 8759000,
-                                "monthly_rent": 82830
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "block": "소룡신도시",
+            "block": "군산소룡신도시",
             "types": [
                 {
                     "type": "45",
@@ -174,7 +143,7 @@
             ]
         },
         {
-            "block": "경암부향",
+            "block": "군산경암",
             "types": [
                 {
                     "type": "39",
@@ -186,6 +155,37 @@
                                 "down_payment": 300000,
                                 "balance": 8759000,
                                 "monthly_rent": 80230
+                            },
+                            "converted": {
+                                "limit": {
+                                    "plus": null,
+                                    "minus": null
+                                },
+                                "LeaseTerm_MaximumConversion": {
+                                    "balance_plus": null,
+                                    "balance_minus": null,
+                                    "monthly_rent_plus": null,
+                                    "monthly_rent_minus": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "block": "군산부향1차",
+            "types": [
+                {
+                    "type": "39",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "total_deposit": 9059000,
+                                "down_payment": 300000,
+                                "balance": 8759000,
+                                "monthly_rent": 82830
                             },
                             "converted": {
                                 "limit": {
