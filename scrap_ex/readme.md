@@ -29,7 +29,24 @@
                     "eligible_residents": ["대상1", "대상2"],
                     "current_supply": 현재 공급 세대 수,
                     "exclusive_area_m2": 전용 면적,
-                    "images": 평면도
+                    "images": 평면도,
+                    "target": [
+                        {
+                            "group": "대학생",
+                            "contract": {
+                                "down_payment": 계약금,
+                                "deposit_max": 최대 보증금,
+                                "deposit_min": 최소 보증금,
+                                "monthly_rent_min": 최소 월세,
+                                "monthly_rent_max": 최대 월세
+                            }
+                        },
+                        {
+                            "group": "청년(무소득)"
+                            ...생략...
+                        },
+                        ...생략...
+                    ]
                 },
                 {
                     "type": "타입2",
@@ -52,51 +69,6 @@
             "complex_name": "단지 이름2",
             ...생략...
         },
-
-    ],
-
-    "housing_supply"(임대 가격): [
-        {
-            "block": "단지 이름1",
-            "types": [
-                {
-                    "type": "타입 1",
-                    "target": [
-                        {
-                            "group": "대학생, 청년(소득×)"(타입),
-                            "contract": {
-                                "total_deposit": 임대 보증금 합계,
-                                "down_payment": 임대 보증금 계약금,
-                                "balance": 임대 보증금 잔금,
-                                "monthly_rent": 월 임대료
-                            },
-                            "converted"(전환): {
-                                "limit"(전환 가능 보증금 한도액): {
-                                    "plus": "-",
-                                    "minus": 8000000,
-                                },
-                                "LeaseTerm_MaximumConversion": {(최대 전환시 임대 조건)
-                                    "balance_plus": 10710000,
-                                    "balance_minus": 2710000,
-                                    "monthly_rent_plus": 53550,
-                                    "monthly_rent_minus": 76880
-                                }
-                            }
-                        },
-                        {
-                            "group": "청년(소득○)",
-                            ...생략...
-                        },
-                    ]
-                },
-                {
-                    "type": "타입 2",
-                    ...생략...
-                }
-            ],
-            "block": "단지 이름2",
-            ...생략...
-        }
     ],
 }
 ```
