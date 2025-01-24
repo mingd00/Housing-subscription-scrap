@@ -26,21 +26,87 @@
                     "eligible_residents": null,
                     "current_supply": "411",
                     "exclusive_area_m2": "26.37",
-                    "images": null
+                    "images": null,
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "down_payment": 124000,
+                                "deposit_max": 2480000,
+                                "deposit_min": 2480000,
+                                "monthly_rent_min": 49310,
+                                "monthly_rent_max": 49310
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "down_payment": 211100,
+                                "deposit_max": 4222000,
+                                "deposit_min": 4222000,
+                                "monthly_rent_min": 78370,
+                                "monthly_rent_max": 78370
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "44.1400",
                     "eligible_residents": null,
                     "current_supply": "5",
                     "exclusive_area_m2": "31.32",
-                    "images": null
+                    "images": null,
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "down_payment": 1473000,
+                                "deposit_max": 2946000,
+                                "deposit_min": 2946000,
+                                "monthly_rent_min": 58560,
+                                "monthly_rent_max": 58560
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "down_payment": 2507000,
+                                "deposit_max": 5014000,
+                                "deposit_min": 5014000,
+                                "monthly_rent_min": 93080,
+                                "monthly_rent_max": 93080
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "56.8300",
                     "eligible_residents": null,
                     "current_supply": "5",
                     "exclusive_area_m2": "40.32",
-                    "images": null
+                    "images": null,
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "down_payment": 189600,
+                                "deposit_max": 3793000,
+                                "deposit_min": 3793000,
+                                "monthly_rent_min": 75390,
+                                "monthly_rent_max": 75390
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "down_payment": 322700,
+                                "deposit_max": 6455000,
+                                "deposit_min": 6455000,
+                                "monthly_rent_min": 119830,
+                                "monthly_rent_max": 119830
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -60,7 +126,29 @@
                     "eligible_residents": null,
                     "current_supply": "200",
                     "exclusive_area_m2": "26.37",
-                    "images": null
+                    "images": null,
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "down_payment": 124000,
+                                "deposit_max": 2480000,
+                                "deposit_min": 2480000,
+                                "monthly_rent_min": 49310,
+                                "monthly_rent_max": 49310
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "down_payment": 471100,
+                                "deposit_max": 9423000,
+                                "deposit_min": 9423000,
+                                "monthly_rent_min": 134290,
+                                "monthly_rent_max": 134290
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -69,110 +157,6 @@
                 "complex_site_plan": null,
                 "unit_layout_plan": null
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "전주평화주공1단지",
-            "types": [
-                {
-                    "type": "39.8800",
-                    "target": [
-                        {
-                            "group": "가군(생계·의료급여수급자 등)",
-                            "contract": {
-                                "total_deposit": 2480000,
-                                "down_payment": 124000,
-                                "balance": 2356000,
-                                "monthly_rent": 49310
-                            }
-                        },
-                        {
-                            "group": "나군(일반 등)",
-                            "contract": {
-                                "total_deposit": 4222000,
-                                "down_payment": 211100,
-                                "balance": 3830800,
-                                "monthly_rent": 78370
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "44.1400",
-                    "target": [
-                        {
-                            "group": "가군(생계·의료급여수급자 등)",
-                            "contract": {
-                                "total_deposit": 2946000,
-                                "down_payment": 1473000,
-                                "balance": 2798700,
-                                "monthly_rent": 58560
-                            }
-                        },
-                        {
-                            "group": "나군(일반 등)",
-                            "contract": {
-                                "total_deposit": 5014000,
-                                "down_payment": 2507000,
-                                "balance": 4763300,
-                                "monthly_rent": 93080
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "56.8300",
-                    "target": [
-                        {
-                            "group": "가군(생계·의료급여수급자 등)",
-                            "contract": {
-                                "total_deposit": 3793000,
-                                "down_payment": 189600,
-                                "balance": 3603400,
-                                "monthly_rent": 75390
-                            }
-                        },
-                        {
-                            "group": "나군(일반 등)",
-                            "contract": {
-                                "total_deposit": 6455000,
-                                "down_payment": 322700,
-                                "balance": 6132300,
-                                "monthly_rent": 119830
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "block": "전주평화4 영구임대주택",
-            "types": [
-                {
-                    "type": "39.6011",
-                    "target": [
-                        {
-                            "group": "가군(생계·의료급여수급자 등)",
-                            "contract": {
-                                "total_deposit": 2480000,
-                                "down_payment": 124000,
-                                "balance": 2356000,
-                                "monthly_rent": 49310
-                            }
-                        },
-                        {
-                            "group": "나군(일반 등)",
-                            "contract": {
-                                "total_deposit": 9423000,
-                                "down_payment": 471100,
-                                "balance": 8951900,
-                                "monthly_rent": 134290
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

@@ -26,7 +26,29 @@
                     "eligible_residents": null,
                     "current_supply": "20",
                     "exclusive_area_m2": "26.56",
-                    "images": "images/정선신동/26.jpg"
+                    "images": "images/정선신동/26.jpg",
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "down_payment": 120000,
+                                "deposit_max": 2410000,
+                                "deposit_min": 2410000,
+                                "monthly_rent_min": 47950,
+                                "monthly_rent_max": 47950
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 10360000,
+                                "deposit_min": 10360000,
+                                "monthly_rent_min": 95520,
+                                "monthly_rent_max": 95520
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -35,60 +57,6 @@
                 "complex_site_plan": null,
                 "unit_layout_plan": null
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "정선신동 영구임대주택",
-            "types": [
-                {
-                    "type": "26",
-                    "target": [
-                        {
-                            "group": "가군(생계·의료급여수급자 등)",
-                            "contract": {
-                                "total_deposit": 2410000,
-                                "down_payment": 120000,
-                                "balance": 2290000,
-                                "monthly_rent": 47950
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        },
-                        {
-                            "group": "나군(일반 등)",
-                            "contract": {
-                                "total_deposit": 10360000,
-                                "down_payment": 500000,
-                                "balance": 9860000,
-                                "monthly_rent": 95520
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

@@ -24,9 +24,21 @@
                 {
                     "type": "30",
                     "eligible_residents": null,
-                    "current_supply": "34",
-                    "exclusive_area_m2": "30.4",
-                    "images": null
+                    "current_supply": 34,
+                    "exclusive_area_m2": 30.4,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 300000,
+                                "deposit_max": 6728000,
+                                "deposit_min": 6728000,
+                                "monthly_rent_min": 67280,
+                                "monthly_rent_max": 67280
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -44,16 +56,40 @@
                 {
                     "type": "32",
                     "eligible_residents": null,
-                    "current_supply": "4",
-                    "exclusive_area_m2": "32.81",
-                    "images": null
+                    "current_supply": 4,
+                    "exclusive_area_m2": 32.81,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 300000,
+                                "deposit_max": 7766000,
+                                "deposit_min": 7766000,
+                                "monthly_rent_min": 69880,
+                                "monthly_rent_max": 69880
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "39",
                     "eligible_residents": null,
-                    "current_supply": "61",
-                    "exclusive_area_m2": "39.95",
-                    "images": null
+                    "current_supply": 61,
+                    "exclusive_area_m2": 39.95,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 300000,
+                                "deposit_max": 9059000,
+                                "deposit_min": 9059000,
+                                "monthly_rent_min": 88010,
+                                "monthly_rent_max": 88010
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -71,16 +107,40 @@
                 {
                     "type": "30",
                     "eligible_residents": null,
-                    "current_supply": "7",
-                    "exclusive_area_m2": "30.26",
-                    "images": null
+                    "current_supply": 7,
+                    "exclusive_area_m2": 30.26,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 300000,
+                                "deposit_max": 7635000,
+                                "deposit_min": 7635000,
+                                "monthly_rent_min": 66000,
+                                "monthly_rent_max": 66000
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "39",
                     "eligible_residents": null,
-                    "current_supply": "89",
-                    "exclusive_area_m2": "39.08",
-                    "images": null
+                    "current_supply": 89,
+                    "exclusive_area_m2": 39.08,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 300000,
+                                "deposit_max": 9059000,
+                                "deposit_min": 9059000,
+                                "monthly_rent_min": 85410,
+                                "monthly_rent_max": 85410
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -98,9 +158,21 @@
                 {
                     "type": "35",
                     "eligible_residents": null,
-                    "current_supply": "35",
-                    "exclusive_area_m2": "35.72",
-                    "images": null
+                    "current_supply": 35,
+                    "exclusive_area_m2": 35.72,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 300000,
+                                "deposit_max": 9707000,
+                                "deposit_min": 9707000,
+                                "monthly_rent_min": 93190,
+                                "monthly_rent_max": 93190
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -118,9 +190,21 @@
                 {
                     "type": "39",
                     "eligible_residents": null,
-                    "current_supply": "68",
-                    "exclusive_area_m2": "39.96",
-                    "images": null
+                    "current_supply": 68,
+                    "exclusive_area_m2": 39.96,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 300000,
+                                "deposit_max": 9059000,
+                                "deposit_min": 9059000,
+                                "monthly_rent_min": 84130,
+                                "monthly_rent_max": 84130
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -129,215 +213,6 @@
                 "complex_site_plan": null,
                 "unit_layout_plan": null
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "산북부향2차",
-            "types": [
-                {
-                    "type": "30",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 6728000,
-                                "down_payment": 300000,
-                                "balance": 6428000,
-                                "monthly_rent": 67280
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "block": "산북부향3차",
-            "types": [
-                {
-                    "type": "32",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 7766000,
-                                "down_payment": 300000,
-                                "balance": 7466000,
-                                "monthly_rent": 69880
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "39",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9059000,
-                                "down_payment": 300000,
-                                "balance": 8759000,
-                                "monthly_rent": 88010
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "block": "산북부향4차",
-            "types": [
-                {
-                    "type": "30",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 7635000,
-                                "down_payment": 300000,
-                                "balance": 7335000,
-                                "monthly_rent": 66000
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "39",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9059000,
-                                "down_payment": 300000,
-                                "balance": 8759000,
-                                "monthly_rent": 85410
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "block": "신풍부향",
-            "types": [
-                {
-                    "type": "35",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9707000,
-                                "down_payment": 300000,
-                                "balance": 9407000,
-                                "monthly_rent": 93190
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "block": "조촌부향",
-            "types": [
-                {
-                    "type": "39",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9059000,
-                                "down_payment": 300000,
-                                "balance": 8759000,
-                                "monthly_rent": 84130
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

@@ -26,14 +26,58 @@
                     "eligible_residents": null,
                     "current_supply": "200",
                     "exclusive_area_m2": "26.37",
-                    "images": null
+                    "images": null,
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "down_payment": 117700,
+                                "deposit_max": 2354000,
+                                "deposit_min": 2354000,
+                                "monthly_rent_min": 46850,
+                                "monthly_rent_max": 46850
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "down_payment": 164450,
+                                "deposit_max": 3289000,
+                                "deposit_min": 3289000,
+                                "monthly_rent_min": 73170,
+                                "monthly_rent_max": 73170
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "45.1700",
                     "eligible_residents": null,
                     "current_supply": "100",
                     "exclusive_area_m2": "31.32",
-                    "images": null
+                    "images": null,
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "down_payment": 139800,
+                                "deposit_max": 2796000,
+                                "deposit_min": 2796000,
+                                "monthly_rent_min": 55650,
+                                "monthly_rent_max": 55650
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "down_payment": 195300,
+                                "deposit_max": 3906000,
+                                "deposit_min": 3906000,
+                                "monthly_rent_min": 86910,
+                                "monthly_rent_max": 86910
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -42,107 +86,6 @@
                 "complex_site_plan": null,
                 "unit_layout_plan": null
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "천안쌍용 1",
-            "types": [
-                {
-                    "type": "39.7500",
-                    "target": [
-                        {
-                            "group": "가군(생계·의료급여수급자 등)",
-                            "contract": {
-                                "total_deposit": 2354000,
-                                "down_payment": 117700,
-                                "balance": 2236300,
-                                "monthly_rent": 46850
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        },
-                        {
-                            "group": "나군(일반 등)",
-                            "contract": {
-                                "total_deposit": 3289000,
-                                "down_payment": 164450,
-                                "balance": 3124550,
-                                "monthly_rent": 73170
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "45.1700",
-                    "target": [
-                        {
-                            "group": "가군(생계·의료급여수급자 등)",
-                            "contract": {
-                                "total_deposit": 2796000,
-                                "down_payment": 139800,
-                                "balance": 2656200,
-                                "monthly_rent": 55650
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        },
-                        {
-                            "group": "나군(일반 등)",
-                            "contract": {
-                                "total_deposit": 3906000,
-                                "down_payment": 195300,
-                                "balance": 3710700,
-                                "monthly_rent": 86910
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

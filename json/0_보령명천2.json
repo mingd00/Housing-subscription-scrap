@@ -26,7 +26,29 @@
                     "eligible_residents": null,
                     "current_supply": "110",
                     "exclusive_area_m2": "26.37",
-                    "images": null
+                    "images": null,
+                    "target": [
+                        {
+                            "group": "가군(생계·의료급여수급자 등)",
+                            "contract": {
+                                "down_payment": 117700,
+                                "deposit_max": 2354000,
+                                "deposit_min": 2354000,
+                                "monthly_rent_min": 46850,
+                                "monthly_rent_max": 46850
+                            }
+                        },
+                        {
+                            "group": "나군(일반 등)",
+                            "contract": {
+                                "down_payment": 436200,
+                                "deposit_max": 8724000,
+                                "deposit_min": 8724000,
+                                "monthly_rent_min": 134040,
+                                "monthly_rent_max": 134040
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -35,56 +57,6 @@
                 "complex_site_plan": null,
                 "unit_layout_plan": null
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "보령명천2단지",
-            "types": [
-                {
-                    "type": "39.1200",
-                    "target": [
-                        {
-                            "group": "가군(생계·의료급여수급자 등)",
-                            "contract": {
-                                "total_deposit": 2354000,
-                                "down_payment": 117700,
-                                "balance": 2236300,
-                                "monthly_rent": 46850
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance": null,
-                                    "monthly_rent": null
-                                }
-                            }
-                        },
-                        {
-                            "group": "나군(일반 등)",
-                            "contract": {
-                                "total_deposit": 8724000,
-                                "down_payment": 436200,
-                                "balance": 8287800,
-                                "monthly_rent": 134040
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance": null,
-                                    "monthly_rent": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

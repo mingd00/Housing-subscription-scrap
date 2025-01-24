@@ -26,7 +26,19 @@
                     "eligible_residents": null,
                     "current_supply": "170",
                     "exclusive_area_m2": "26.4673",
-                    "images": "images/익산한스빌/26.jpg"
+                    "images": "images/익산한스빌/26.jpg",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 201850,
+                                "deposit_max": 5037000,
+                                "deposit_min": 2037000,
+                                "monthly_rent_min": 66280,
+                                "monthly_rent_max": 77950
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -35,65 +47,6 @@
                 "complex_site_plan": null,
                 "unit_layout_plan": null
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "익산한스빌",
-            "types": [
-                {
-                    "type": "26",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 4037000,
-                                "down_payment": 201850,
-                                "balance": 3835150,
-                                "monthly_rent": 72120
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 1000000,
-                                    "minus": 2000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 5037000,
-                                    "balance_minus": 2037000,
-                                    "monthly_rent_plus": 66280,
-                                    "monthly_rent_minus": 77950
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "26B",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 4037000,
-                                "down_payment": 201850,
-                                "balance": 3835150,
-                                "monthly_rent": 72120
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 1000000,
-                                    "minus": 2000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 5037000,
-                                    "balance_minus": 2037000,
-                                    "monthly_rent_plus": 66280,
-                                    "monthly_rent_minus": 77950
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

@@ -24,37 +24,119 @@
                 {
                     "type": "24A",
                     "eligible_residents": ["대학생", "청년"],
-                    "current_supply": "31",
-                    "exclusive_area_m2": "24.54",
-                    "images": "images/수원매산A1/24A.jpg"
-                },
-                {
-                    "type": "24A",
-                    "eligible_residents": ["주거급여수급자"],
-                    "current_supply": "1",
-                    "exclusive_area_m2": "24.54",
-                    "images": "images/수원매산A1/24A.jpg"
+                    "current_supply": 31,
+                    "exclusive_area_m2": 24.54,
+                    "images": "images/수원매산A1/24A.jpg",
+                    "target": [
+                        {
+                            "group": "대학생",
+                            "contract": {
+                                "down_payment": 1853000,
+                                "deposit_max": 52060000,
+                                "deposit_min": 6060000,
+                                "monthly_rent_min": 73090,
+                                "monthly_rent_max": 251000
+                            }
+                        },
+                        {
+                            "group": "청년(소득無)",
+                            "contract": {
+                                "down_payment": 1853000,
+                                "deposit_max": 52060000,
+                                "deposit_min": 6060000,
+                                "monthly_rent_min": 73090,
+                                "monthly_rent_max": 251000
+                            }
+                        },
+                        {
+                            "group": "청년(소득有)",
+                            "contract": {
+                                "down_payment": 1962000,
+                                "deposit_max": 56240000,
+                                "deposit_min": 7240000,
+                                "monthly_rent_min": 70870,
+                                "monthly_rent_max": 263370
+                            }
+                        },
+                        {
+                            "group": "주거급여수급자",
+                            "contract": {
+                                "down_payment": 1635000,
+                                "deposit_max": 44700000,
+                                "deposit_min": 5700000,
+                                "monthly_rent_min": 71700,
+                                "monthly_rent_max": 220450
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "24B",
                     "eligible_residents": ["대학생", "청년"],
-                    "current_supply": "13",
-                    "exclusive_area_m2": "24.99",
-                    "images": "images/수원매산A1/24B.jpg"
-                },
-                {
-                    "type": "24B",
-                    "eligible_residents": ["주거급여수급자"],
-                    "current_supply": "1",
-                    "exclusive_area_m2": "24.99",
-                    "images": "images/수원매산A1/24B.jpg"
+                    "current_supply": 13,
+                    "exclusive_area_m2": 24.99,
+                    "images": "images/수원매산A1/24B.jpg",
+                    "target": [
+                        {
+                            "group": "대학생",
+                            "contract": {
+                                "down_payment": 1887000,
+                                "deposit_max": 52740000,
+                                "deposit_min": 6740000,
+                                "monthly_rent_min": 76040,
+                                "monthly_rent_max": 253950
+                            }
+                        },
+                        {
+                            "group": "청년(소득無)",
+                            "contract": {
+                                "down_payment": 1887000,
+                                "deposit_max": 52740000,
+                                "deposit_min": 6740000,
+                                "monthly_rent_min": 76040,
+                                "monthly_rent_max": 253950
+                            }
+                        },
+                        {
+                            "group": "청년(소득有)",
+                            "contract": {
+                                "down_payment": 1998000,
+                                "deposit_max": 56960000,
+                                "deposit_min": 6960000,
+                                "monthly_rent_min": 73990,
+                                "monthly_rent_max": 269410
+                            }
+                        },
+                        {
+                            "group": "주거급여수급자",
+                            "contract": {
+                                "down_payment": 1665000,
+                                "deposit_max": 45300000,
+                                "deposit_min": 6300000,
+                                "monthly_rent_min": 74300,
+                                "monthly_rent_max": 223050
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "26AS",
                     "eligible_residents": ["고령자-주거약자용"],
-                    "current_supply": "12",
-                    "exclusive_area_m2": "26.82",
-                    "images": "images/수원매산A1/24AS.jpg"
+                    "current_supply": 12,
+                    "exclusive_area_m2": 26.82,
+                    "images": "images/수원매산A1/24AS.jpg",
+                    "target": [
+                        {
+                            "group": "고령자(주거약자용)",
+                            "contract": {
+                                "down_payment": 2261000,
+                                "deposit_max": 65220000,
+                                "deposit_min": 8220000,
+                                "monthly_rent_min": 79280,
+                                "monthly_rent_max": 303860
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -63,217 +145,6 @@
                 "complex_site_plan": "images/수원매산A1/complex_site_plan.jpg",
                 "unit_layout_plan": "images/수원매산A1/unit_layout_plan.jpg"
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "수원매산 A1블록 행복주택",
-            "types": [
-                {
-                    "type": "24A",
-                    "target": [
-                        {
-                            "group": "대학생",
-                            "contract": {
-                                "total_deposit": 37060000,
-                                "down_payment": 1853000,
-                                "balance": 35207000,
-                                "monthly_rent": 160590
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 15000000,
-                                    "minus": 31000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 52060000,
-                                    "balance_minus": 6060000,
-                                    "monthly_rent_plus": 73090,
-                                    "monthly_rent_minus": 251000
-                                }
-                            }
-                        },
-                        {
-                            "group": "청년(소득無)",
-                            "contract": {
-                                "total_deposit": 37060000,
-                                "down_payment": 1853000,
-                                "balance": 35207000,
-                                "monthly_rent": 160590
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 15000000,
-                                    "minus": 31000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 52060000,
-                                    "balance_minus": 6060000,
-                                    "monthly_rent_plus": 73090,
-                                    "monthly_rent_minus": 251000
-                                }
-                            }
-                        },
-                        {
-                            "group": "청년(소득有)",
-                            "contract": {
-                                "total_deposit": 39240000,
-                                "down_payment": 1962000,
-                                "balance": 37278000,
-                                "monthly_rent": 170040
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 17000000,
-                                    "minus": 32000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 56240000,
-                                    "balance_minus": 7240000,
-                                    "monthly_rent_plus": 70870,
-                                    "monthly_rent_minus": 263370
-                                }
-                            }
-                        },
-                        {
-                            "group": "주거급여수급자",
-                            "contract": {
-                                "total_deposit": 32700000,
-                                "down_payment": 1635000,
-                                "balance": 31065000,
-                                "monthly_rent": 141700
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 12000000,
-                                    "minus": 27000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 44700000,
-                                    "balance_minus": 5700000,
-                                    "monthly_rent_plus": 71700,
-                                    "monthly_rent_minus": 220450
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "24B",
-                    "target": [
-                        {
-                            "group": "대학생",
-                            "contract": {
-                                "total_deposit": 37740000,
-                                "down_payment": 1887000,
-                                "balance": 35853000,
-                                "monthly_rent": 163540
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 15000000,
-                                    "minus": 31000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 52740000,
-                                    "balance_minus": 6740000,
-                                    "monthly_rent_plus": 76040,
-                                    "monthly_rent_minus": 253950
-                                }
-                            }
-                        },
-                        {
-                            "group": "청년(소득無)",
-                            "contract": {
-                                "total_deposit": 37740000,
-                                "down_payment": 1887000,
-                                "balance": 35853000,
-                                "monthly_rent": 163540
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 15000000,
-                                    "minus": 31000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 52740000,
-                                    "balance_minus": 6740000,
-                                    "monthly_rent_plus": 76040,
-                                    "monthly_rent_minus": 253950
-                                }
-                            }
-                        },
-                        {
-                            "group": "청년(소득有)",
-                            "contract": {
-                                "total_deposit": 39960000,
-                                "down_payment": 1998000,
-                                "balance": 37962000,
-                                "monthly_rent": 173160
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 17000000,
-                                    "minus": 33000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 56960000,
-                                    "balance_minus": 6960000,
-                                    "monthly_rent_plus": 73990,
-                                    "monthly_rent_minus": 269410
-                                }
-                            }
-                        },
-                        {
-                            "group": "주거급여수급자",
-                            "contract": {
-                                "total_deposit": 33300000,
-                                "down_payment": 1665000,
-                                "balance": 31635000,
-                                "monthly_rent": 144300
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 12000000,
-                                    "minus": 27000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 45300000,
-                                    "balance_minus": 6300000,
-                                    "monthly_rent_plus": 74300,
-                                    "monthly_rent_minus": 223050
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "26AS",
-                    "target": [
-                        {
-                            "group": "고령자(주거약자용)",
-                            "contract": {
-                                "total_deposit": 45220000,
-                                "down_payment": 2261000,
-                                "balance": 42959000,
-                                "monthly_rent": 195950
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 20000000,
-                                    "minus": 37000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 65220000,
-                                    "balance_minus": 8220000,
-                                    "monthly_rent_plus": 79280,
-                                    "monthly_rent_minus": 303860
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

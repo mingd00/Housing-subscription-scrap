@@ -24,51 +24,185 @@
                 {
                     "type": "21A",
                     "eligible_residents": ["청년"],
-                    "current_supply": "31",
+                    "current_supply": 31,
                     "exclusive_area_m2": "21.82",
-                    "images": "images/군산금암/21A.jpg"
+                    "images": "images/군산금암/21A.jpg",
+                    "target": [
+                        {
+                            "group": "소득X 청년",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 14532000,
+                                "deposit_min": 2532000,
+                                "monthly_rent_min": 61820,
+                                "monthly_rent_max": 99740
+                            }
+                        },
+                        {
+                            "group": "소득O 청년",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 15328000,
+                                "deposit_min": 3328000,
+                                "monthly_rent_min": 65800,
+                                "monthly_rent_max": 103720
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "26A",
                     "eligible_residents": ["주거급여수급자"],
-                    "current_supply": "7",
+                    "current_supply": 7,
                     "exclusive_area_m2": "26.51",
-                    "images": "images/군산금암/26A.jpg"
+                    "images": "images/군산금암/26A.jpg",
+                    "target": [
+                        {
+                            "group": "주거급여수급자",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 16850000,
+                                "deposit_min": 2850000,
+                                "monthly_rent_min": 62580,
+                                "monthly_rent_max": 109250
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "26B",
                     "eligible_residents": ["주거약자(고령자)"],
-                    "current_supply": "8",
+                    "current_supply": 8,
                     "exclusive_area_m2": "26.5",
-                    "images": "images/군산금암/26B.jpg"
+                    "images": "images/군산금암/26B.jpg",
+                    "target": [
+                        {
+                            "group": "고령자(주거약자용)",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 23810000,
+                                "deposit_min": 3810000,
+                                "monthly_rent_min": 64880,
+                                "monthly_rent_max": 137800
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "36A",
                     "eligible_residents": ["신혼부부", "고령자"],
-                    "current_supply": "19",
+                    "current_supply": 19,
                     "exclusive_area_m2": "36.5",
-                    "images": "images/군산금암/36A.jpg"
+                    "images": "images/군산금암/36A.jpg",
+                    "target": [
+                        {
+                            "group": "신혼부부 · 한부모가족",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 40920000,
+                                "deposit_min": 5920000,
+                                "monthly_rent_min": 63760,
+                                "monthly_rent_max": 203760
+                            }
+                        },
+                        {
+                            "group": "고령자",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 38524000,
+                                "deposit_min": 5524000,
+                                "monthly_rent_min": 62620,
+                                "monthly_rent_max": 193870
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "44A",
                     "eligible_residents": ["신혼부부"],
-                    "current_supply": "26",
+                    "current_supply": 26,
                     "exclusive_area_m2": "44.98",
-                    "images": "images/군산금암/44A.jpg"
+                    "images": "images/군산금암/44A.jpg",
+                    "target": [
+                        {
+                            "group": "신혼부부 · 한부모가족",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 51400000,
+                                "deposit_min": 6400000,
+                                "monthly_rent_min": 72830,
+                                "monthly_rent_max": 253660
+                            }
+                        },
+                        {
+                            "group": "고령자",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 48680000,
+                                "deposit_min": 6680000,
+                                "monthly_rent_min": 70060,
+                                "monthly_rent_max": 239230
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "44B",
                     "eligible_residents": ["신혼부부"],
-                    "current_supply": "4",
+                    "current_supply": 4,
                     "exclusive_area_m2": "44.98",
-                    "images": "images/군산금암/44B.jpg"
+                    "images": "images/군산금암/44B.jpg",
+                    "target": [
+                        {
+                            "group": "신혼부부 · 한부모가족",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 51400000,
+                                "deposit_min": 6400000,
+                                "monthly_rent_min": 72830,
+                                "monthly_rent_max": 253660
+                            }
+                        },
+                        {
+                            "group": "고령자",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 48680000,
+                                "deposit_min": 6680000,
+                                "monthly_rent_min": 70060,
+                                "monthly_rent_max": 239230
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "46A",
                     "eligible_residents": ["신혼부부"],
-                    "current_supply": "6",
+                    "current_supply": 6,
                     "exclusive_area_m2": "46.55",
-                    "images": "images/군산금암/46A.jpg"
+                    "images": "images/군산금암/46A.jpg",
+                    "target": [
+                        {
+                            "group": "신혼부부 · 한부모가족",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 53600000,
+                                "deposit_min": 6600000,
+                                "monthly_rent_min": 73000,
+                                "monthly_rent_max": 262580
+                            }
+                        },
+                        {
+                            "group": "고령자",
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 50820000,
+                                "deposit_min": 6820000,
+                                "monthly_rent_min": 69930,
+                                "monthly_rent_max": 247850
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -77,300 +211,6 @@
                 "complex_site_plan": "images/군산금암/complex_site_plan.jpg",
                 "unit_layout_plan": null
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "군산금암 1BL 행복주택",
-            "types": [
-                {
-                    "type": "21A",
-                    "target": [
-                        {
-                            "group": "소득X 청년",
-                            "contract": {
-                                "total_deposit": 13532000,
-                                "down_payment": 500000,
-                                "balance": 13032000,
-                                "monthly_rent": 67660
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 1000000,
-                                    "minus": 11000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 14532000,
-                                    "balance_minus": 2532000,
-                                    "monthly_rent_plus": 61820,
-                                    "monthly_rent_minus": 99740
-                                }
-                            }
-                        },
-                        {
-                            "group": "소득O 청년",
-                            "contract": {
-                                "total_deposit": 14328000,
-                                "down_payment": 500000,
-                                "balance": 13828000,
-                                "monthly_rent": 71640
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 1000000,
-                                    "minus": 11000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 15328000,
-                                    "balance_minus": 3328000,
-                                    "monthly_rent_plus": 65800,
-                                    "monthly_rent_minus": 103720
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "26A",
-                    "target": [
-                        {
-                            "group": "주거급여수급자",
-                            "contract": {
-                                "total_deposit": 14850000,
-                                "down_payment": 500000,
-                                "balance": 14350000,
-                                "monthly_rent": 74250
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 2000000,
-                                    "minus": 12000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 16850000,
-                                    "balance_minus": 2850000,
-                                    "monthly_rent_plus": 62580,
-                                    "monthly_rent_minus": 109250
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "26B",
-                    "target": [
-                        {
-                            "group": "고령자(주거약자용)",
-                            "contract": {
-                                "total_deposit": 18810000,
-                                "down_payment": 500000,
-                                "balance": 18310000,
-                                "monthly_rent": 94050
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 5000000,
-                                    "minus": 15000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 23810000,
-                                    "balance_minus": 3810000,
-                                    "monthly_rent_plus": 64880,
-                                    "monthly_rent_minus": 137800
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "36A",
-                    "target": [
-                        {
-                            "group": "신혼부부 · 한부모가족",
-                            "contract": {
-                                "total_deposit": 27920000,
-                                "down_payment": 500000,
-                                "balance": 27420000,
-                                "monthly_rent": 139600
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 13000000,
-                                    "minus": 22000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 40920000,
-                                    "balance_minus": 5920000,
-                                    "monthly_rent_plus": 63760,
-                                    "monthly_rent_minus": 203760
-                                }
-                            }
-                        },
-                        {
-                            "group": "고령자",
-                            "contract": {
-                                "total_deposit": 26524000,
-                                "down_payment": 500000,
-                                "balance": 26024000,
-                                "monthly_rent": 132620
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 12000000,
-                                    "minus": 21000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 38524000,
-                                    "balance_minus": 5524000,
-                                    "monthly_rent_plus": 62620,
-                                    "monthly_rent_minus": 193870
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "44A",
-                    "target": [
-                        {
-                            "group": "신혼부부 · 한부모가족",
-                            "contract": {
-                                "total_deposit": 34400000,
-                                "down_payment": 500000,
-                                "balance": 33900000,
-                                "monthly_rent": 172000
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 17000000,
-                                    "minus": 28000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 51400000,
-                                    "balance_minus": 6400000,
-                                    "monthly_rent_plus": 72830,
-                                    "monthly_rent_minus": 253660
-                                }
-                            }
-                        },
-                        {
-                            "group": "고령자",
-                            "contract": {
-                                "total_deposit": 32680000,
-                                "down_payment": 500000,
-                                "balance": 32180000,
-                                "monthly_rent": 163400
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 16000000,
-                                    "minus": 26000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 48680000,
-                                    "balance_minus": 6680000,
-                                    "monthly_rent_plus": 70060,
-                                    "monthly_rent_minus": 239230
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "44B",
-                    "target": [
-                        {
-                            "group": "신혼부부 · 한부모가족",
-                            "contract": {
-                                "total_deposit": 34400000,
-                                "down_payment": 500000,
-                                "balance": 33900000,
-                                "monthly_rent": 172000
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 17000000,
-                                    "minus": 28000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 51400000,
-                                    "balance_minus": 6400000,
-                                    "monthly_rent_plus": 72830,
-                                    "monthly_rent_minus": 253660
-                                }
-                            }
-                        },
-                        {
-                            "group": "고령자",
-                            "contract": {
-                                "total_deposit": 32680000,
-                                "down_payment": 500000,
-                                "balance": 32180000,
-                                "monthly_rent": 163400
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 16000000,
-                                    "minus": 26000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 48680000,
-                                    "balance_minus": 6680000,
-                                    "monthly_rent_plus": 70060,
-                                    "monthly_rent_minus": 239230
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "46A",
-                    "target": [
-                        {
-                            "group": "신혼부부 · 한부모가족",
-                            "contract": {
-                                "total_deposit": 35600000,
-                                "down_payment": 500000,
-                                "balance": 35100000,
-                                "monthly_rent": 178000
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 18000000,
-                                    "minus": 26000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 53600000,
-                                    "balance_minus": 6600000,
-                                    "monthly_rent_plus": 73000,
-                                    "monthly_rent_minus": 262580
-                                }
-                            }
-                        },
-                        {
-                            "group": "고령자",
-                            "contract": {
-                                "total_deposit": 33820000,
-                                "down_payment": 500000,
-                                "balance": 33320000,
-                                "monthly_rent": 169100
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 17000000,
-                                    "minus": 25000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 50820000,
-                                    "balance_minus": 6820000,
-                                    "monthly_rent_plus": 69930,
-                                    "monthly_rent_minus": 247850
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

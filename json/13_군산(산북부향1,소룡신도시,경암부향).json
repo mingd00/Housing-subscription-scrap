@@ -24,16 +24,40 @@
                 {
                     "type": "45",
                     "eligible_residents": null,
-                    "current_supply": "15",
-                    "exclusive_area_m2": "45.36",
-                    "images": null
+                    "current_supply": 15,
+                    "exclusive_area_m2": 45.36,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 12944000,
+                                "deposit_min": 12944000,
+                                "monthly_rent_min": 106120,
+                                "monthly_rent_max": 106120
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "46",
                     "eligible_residents": null,
-                    "current_supply": "12",
-                    "exclusive_area_m2": "46.45",
-                    "images": null
+                    "current_supply": 12,
+                    "exclusive_area_m2": 46.45,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 500000,
+                                "deposit_max": 12944000,
+                                "deposit_min": 12944000,
+                                "monthly_rent_min": 112590,
+                                "monthly_rent_max": 112590
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -51,9 +75,21 @@
                 {
                     "type": "39",
                     "eligible_residents": null,
-                    "current_supply": "98",
-                    "exclusive_area_m2": "39.95",
-                    "images": null
+                    "current_supply": 98,
+                    "exclusive_area_m2": 39.95,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 300000,
+                                "deposit_max": 9059000,
+                                "deposit_min": 9059000,
+                                "monthly_rent_min": 80230,
+                                "monthly_rent_max": 80230
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -71,9 +107,21 @@
                 {
                     "type": "39",
                     "eligible_residents": null,
-                    "current_supply": "12",
-                    "exclusive_area_m2": "39",
-                    "images": null
+                    "current_supply": 12,
+                    "exclusive_area_m2": 39,
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 300000,
+                                "deposit_max": 9059000,
+                                "deposit_min": 9059000,
+                                "monthly_rent_min": 82830,
+                                "monthly_rent_max": 82830
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -82,127 +130,6 @@
                 "complex_site_plan": null,
                 "unit_layout_plan": null
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "군산소룡신도시",
-            "types": [
-                {
-                    "type": "45",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 12944000,
-                                "down_payment": 500000,
-                                "balance": 12444000,
-                                "monthly_rent": 106120
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "46",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 12944000,
-                                "down_payment": 500000,
-                                "balance": 12444000,
-                                "monthly_rent": 112590
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "block": "군산경암",
-            "types": [
-                {
-                    "type": "39",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9059000,
-                                "down_payment": 300000,
-                                "balance": 8759000,
-                                "monthly_rent": 80230
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "block": "군산부향1차",
-            "types": [
-                {
-                    "type": "39",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9059000,
-                                "down_payment": 300000,
-                                "balance": 8759000,
-                                "monthly_rent": 82830
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

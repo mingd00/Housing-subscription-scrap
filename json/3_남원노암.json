@@ -26,7 +26,19 @@
                     "eligible_residents": null,
                     "current_supply": "15",
                     "exclusive_area_m2": "36",
-                    "images": null
+                    "images": null,
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 1906000,
+                                "deposit_max": 23531000,
+                                "deposit_min": 9531000,
+                                "monthly_rent_min": 78670,
+                                "monthly_rent_max": 148670
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -35,39 +47,6 @@
                 "complex_site_plan": "images/남원노암/complex_site_plan.jpg",
                 "unit_layout_plan": "images/남원노암/unit_layout_plan.jpg"
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "남원노암",
-            "types": [
-                {
-                    "type": "15평",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9531000,
-                                "down_payment": 1906000,
-                                "balance": 7625000,
-                                "monthly_rent": 148670
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 14000000,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 23531000,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": 78670,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

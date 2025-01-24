@@ -26,28 +26,76 @@
                     "eligible_residents": null,
                     "current_supply": "12",
                     "exclusive_area_m2": "29.85",
-                    "images": "images/완주황운/29A.jpg"
+                    "images": "images/완주황운/29A.jpg",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 485000,
+                                "deposit_max": 22702000,
+                                "deposit_min": 3702000,
+                                "monthly_rent_min": 60870,
+                                "monthly_rent_max": 154210
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "29B",
                     "eligible_residents": null,
                     "current_supply": "4",
                     "exclusive_area_m2": "29.85",
-                    "images": "images/완주황운/29B.jpg"
+                    "images": "images/완주황운/29B.jpg",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 485000,
+                                "deposit_max": 22702000,
+                                "deposit_min": 3702000,
+                                "monthly_rent_min": 60870,
+                                "monthly_rent_max": 154210
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "33",
                     "eligible_residents": null,
                     "current_supply": "10",
                     "exclusive_area_m2": "33.5",
-                    "images": "images/완주황운/33.jpg"
+                    "images": "images/완주황운/33.jpg",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 570000,
+                                "deposit_max": 26418000,
+                                "deposit_min": 4418000,
+                                "monthly_rent_min": 67490,
+                                "monthly_rent_max": 175400
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "46",
                     "eligible_residents": null,
                     "current_supply": "24",
                     "exclusive_area_m2": "46.19",
-                    "images": "images/완주황운/46.jpg"
+                    "images": "images/완주황운/46.jpg",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 1301000,
+                                "deposit_max": 49030000,
+                                "deposit_min": 7030000,
+                                "monthly_rent_min": 102160,
+                                "monthly_rent_max": 291740
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -56,117 +104,6 @@
                 "complex_site_plan": "images/완주황운/complex_site_plan.jpg",
                 "unit_layout_plan": "images/완주황운/unit_layout_plan.jpg"
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "완주황운(마을정비형)",
-            "types": [
-                {
-                    "type": "29A",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9702000,
-                                "down_payment": 485000,
-                                "balance": 9217000,
-                                "monthly_rent": 136710
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 13000000,
-                                    "minus": 6000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 22702000,
-                                    "balance_minus": 3702000,
-                                    "monthly_rent_plus": 60870,
-                                    "monthly_rent_minus": 154210
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "29B",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 9702000,
-                                "down_payment": 485000,
-                                "balance": 9217000,
-                                "monthly_rent": 136710
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 13000000,
-                                    "minus": 6000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 22702000,
-                                    "balance_minus": 3702000,
-                                    "monthly_rent_plus": 60870,
-                                    "monthly_rent_minus": 154210
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "33",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 11418000,
-                                "down_payment": 570000,
-                                "balance": 10848000,
-                                "monthly_rent": 154990
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 15000000,
-                                    "minus": 7000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 26418000,
-                                    "balance_minus": 4418000,
-                                    "monthly_rent_plus": 67490,
-                                    "monthly_rent_minus": 175400
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "46",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 26030000,
-                                "down_payment": 1301000,
-                                "balance": 24729000,
-                                "monthly_rent": 236330
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": 23000000,
-                                    "minus": 19000000
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": 49030000,
-                                    "balance_minus": 7030000,
-                                    "monthly_rent_plus": 102160,
-                                    "monthly_rent_minus": 291740
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

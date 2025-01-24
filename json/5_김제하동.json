@@ -26,14 +26,38 @@
                     "eligible_residents": null,
                     "current_supply": "5",
                     "exclusive_area_m2": "34.28",
-                    "images": "images/김제하동/60.png"
+                    "images": "images/김제하동/60.png",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 875900,
+                                "deposit_max": 17517000,
+                                "deposit_min": 17517000,
+                                "monthly_rent_min": 114510,
+                                "monthly_rent_max": 114510
+                            }
+                        }
+                    ]
                 },
                 {
                     "type": "75",
                     "eligible_residents": null,
                     "current_supply": "15",
                     "exclusive_area_m2": "42.87",
-                    "images": "images/김제하동/75.png"
+                    "images": "images/김제하동/75.png",
+                    "target": [
+                        {
+                            "group": null,
+                            "contract": {
+                                "down_payment": 1221600,
+                                "deposit_max": 24431000,
+                                "deposit_min": 24431000,
+                                "monthly_rent_min": 146560,
+                                "monthly_rent_max": 146560
+                            }
+                        }
+                    ]
                 }
             ],
             "house_images": {
@@ -42,65 +66,6 @@
                 "complex_site_plan": null,
                 "unit_layout_plan": null
             }
-        }
-    ],
-    "housing_supply": [
-        {
-            "block": "김제하동 고령자용 국민임대주택",
-            "types": [
-                {
-                    "type": "60",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 17517000,
-                                "down_payment": 875900,
-                                "balance": 16641100,
-                                "monthly_rent": 114510
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "75",
-                    "target": [
-                        {
-                            "group": null,
-                            "contract": {
-                                "total_deposit": 24431000,
-                                "down_payment": 1221600,
-                                "balance": 23209400,
-                                "monthly_rent": 146560
-                            },
-                            "converted": {
-                                "limit": {
-                                    "plus": null,
-                                    "minus": null
-                                },
-                                "LeaseTerm_MaximumConversion": {
-                                    "balance_plus": null,
-                                    "balance_minus": null,
-                                    "monthly_rent_plus": null,
-                                    "monthly_rent_minus": null
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }
