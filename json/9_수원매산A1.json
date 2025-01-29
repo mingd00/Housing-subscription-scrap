@@ -23,7 +23,7 @@
             "units": [
                 {
                     "type": "24A",
-                    "eligible_residents": ["대학생", "청년", "주거급여수급자"],
+                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "주거급여수급자"],
                     "current_supply": 31,
                     "exclusive_area_m2": 24.54,
                     "images": "images/수원매산A1/24A.jpg",
@@ -39,7 +39,7 @@
                             }
                         },
                         {
-                            "group": "청년(소득無)",
+                            "group": "청년(소득X)",
                             "contract": {
                                 "down_payment": 1853000,
                                 "deposit_max": 52060000,
@@ -49,7 +49,7 @@
                             }
                         },
                         {
-                            "group": "청년(소득有)",
+                            "group": "청년(소득O)",
                             "contract": {
                                 "down_payment": 1962000,
                                 "deposit_max": 56240000,
@@ -72,7 +72,7 @@
                 },
                 {
                     "type": "24B",
-                    "eligible_residents": ["대학생", "청년", "주거급여수급자"],
+                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "주거급여수급자"],
                     "current_supply": 13,
                     "exclusive_area_m2": 24.99,
                     "images": "images/수원매산A1/24B.jpg",
@@ -88,7 +88,7 @@
                             }
                         },
                         {
-                            "group": "청년(소득無)",
+                            "group": "청년(소득X)",
                             "contract": {
                                 "down_payment": 1887000,
                                 "deposit_max": 52740000,
@@ -98,7 +98,7 @@
                             }
                         },
                         {
-                            "group": "청년(소득有)",
+                            "group": "청년(소득O)",
                             "contract": {
                                 "down_payment": 1998000,
                                 "deposit_max": 56960000,

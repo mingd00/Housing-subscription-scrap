@@ -52,13 +52,13 @@
                 },
                 {
                     "type": "44.1400",
-                    "eligible_residents": null,
+                    "eligible_residents": ["가군", "나군"],
                     "current_supply": "5",
                     "exclusive_area_m2": "31.32",
                     "images": null,
                     "target": [
                         {
-                            "group": "가군(생계·의료급여수급자 등)",
+                            "group": "가군",
                             "contract": {
                                 "down_payment": 1473000,
                                 "deposit_max": 2946000,
@@ -68,7 +68,7 @@
                             }
                         },
                         {
-                            "group": "나군(일반 등)",
+                            "group": "나군",
                             "contract": {
                                 "down_payment": 2507000,
                                 "deposit_max": 5014000,
@@ -81,13 +81,13 @@
                 },
                 {
                     "type": "56.8300",
-                    "eligible_residents": null,
+                    "eligible_residents": ["가군", "나군"],
                     "current_supply": "5",
                     "exclusive_area_m2": "40.32",
                     "images": null,
                     "target": [
                         {
-                            "group": "가군(생계·의료급여수급자 등)",
+                            "group": "가군",
                             "contract": {
                                 "down_payment": 189600,
                                 "deposit_max": 3793000,
@@ -97,7 +97,7 @@
                             }
                         },
                         {
-                            "group": "나군(일반 등)",
+                            "group": "나군",
                             "contract": {
                                 "down_payment": 322700,
                                 "deposit_max": 6455000,
@@ -123,13 +123,13 @@
             "units": [
                 {
                     "type": "39.6011",
-                    "eligible_residents": null,
+                    "eligible_residents": ["가군", "나군"],
                     "current_supply": "200",
                     "exclusive_area_m2": "26.37",
                     "images": null,
                     "target": [
                         {
-                            "group": "가군(생계·의료급여수급자 등)",
+                            "group": "가군",
                             "contract": {
                                 "down_payment": 124000,
                                 "deposit_max": 2480000,
@@ -139,7 +139,7 @@
                             }
                         },
                         {
-                            "group": "나군(일반 등)",
+                            "group": "나군",
                             "contract": {
                                 "down_payment": 471100,
                                 "deposit_max": 9423000,

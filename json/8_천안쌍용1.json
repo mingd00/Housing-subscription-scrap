@@ -52,7 +52,7 @@
                 },
                 {
                     "type": "45.1700",
-                    "eligible_residents": null,
+                    "eligible_residents": ["가군", "나군"],
                     "current_supply": "100",
                     "exclusive_area_m2": "31.32",
                     "images": null,

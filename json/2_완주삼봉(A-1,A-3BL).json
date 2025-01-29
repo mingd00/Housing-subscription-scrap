@@ -23,13 +23,13 @@
             "units": [
                 {
                     "type": "21A형",
-                    "eligible_residents": ["대학생", "청년", "고령자", "주거급여수급자"],
+                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "고령자", "주거급여수급자"],
                     "current_supply": "18",
                     "exclusive_area_m2": "21.39",
                     "images": "/images/완주삼봉(A1,A3BL)/A1/21A.jpg",
                     "target": [
                         {
-                            "group": "대학생, 청년(소득×)",
+                            "group": "대학생, 청년(소득X)",
                             "contract": {
                                 "down_payment": 8000000,
                                 "deposit_max": 10710000,
@@ -39,7 +39,7 @@
                             }
                         },
                         {
-                            "group": "청년(소득○)",
+                            "group": "청년(소득O)",
                             "contract": {
                                 "down_payment": 500000,
                                 "deposit_max": 11340000,
@@ -72,13 +72,13 @@
                 },
                 {
                     "type": "26A1형",
-                    "eligible_residents": ["대학생", "청년", "고령자", "주거급여수급자"],
+                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "고령자", "주거급여수급자"],
                     "current_supply": "7",
                     "exclusive_area_m2": "26.84",
                     "images": "/images/완주삼봉(A1,A3BL)/A1/26A1.jpg",
                     "target": [
                         {
-                            "group": "대학생, 청년(소득×)",
+                            "group": "대학생, 청년(소득X)",
                             "contract": {
                                 "down_payment": 500000,
                                 "deposit_max": 13158000,
@@ -88,7 +88,7 @@
                             }
                         },
                         {
-                            "group": "청년(소득○)",
+                            "group": "청년(소득O)",
                             "contract": {
                                 "down_payment": 500000,
                                 "deposit_max": 14932000,
@@ -121,18 +121,13 @@
                 },
                 {
                     "type": "26B형",
-                    "eligible_residents": [
-                        "대학생(주거약자용)",
-                        "청년(주거약자용)",
-                        "고령자(주거약자용)",
-                        "주거급여수급자(주거약자용)"
-                    ],
+                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "고령자", "주거급여수급자"],
                     "current_supply": "6",
                     "exclusive_area_m2": "26.72",
                     "images": "/images/완주삼봉(A1,A3BL)/A1/26B.jpg",
                     "target": [
                         {
-                            "group": "대학생, 청년(소득×)",
+                            "group": "대학생, 청년(소득X)",
                             "contract": {
                                 "down_payment": 500000,
                                 "deposit_max": 13158000,
@@ -142,7 +137,7 @@
                             }
                         },
                         {
-                            "group": "청년(소득○)",
+                            "group": "청년(소득O)",
                             "contract": {
                                 "down_payment": 500000,
                                 "deposit_max": 14932000,
@@ -188,13 +183,13 @@
             "units": [
                 {
                     "type": "16형",
-                    "eligible_residents": ["대학생", "청년", "고령자", "주거급여수급자"],
+                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "고령자", "주거급여수급자"],
                     "current_supply": "23",
                     "exclusive_area_m2": "16.54",
                     "images": "/images/완주삼봉(A1,A3BL)/A3BL/16.jpg",
                     "target": [
                         {
-                            "group": "대학생, 청년(소득×)",
+                            "group": "대학생, 청년(소득X)",
                             "contract": {
                                 "down_payment": 500000,
                                 "deposit_max": 9214000,
@@ -204,7 +199,7 @@
                             }
                         },
                         {
-                            "group": "청년(소득○)",
+                            "group": "청년(소득O)",
                             "contract": {
                                 "down_payment": 500000,
                                 "deposit_max": 9756000,
