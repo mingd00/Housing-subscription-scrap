@@ -23,7 +23,7 @@
             "units": [
                 {
                     "type": "24A",
-                    "eligible_residents": ["대학생", "청년"],
+                    "eligible_residents": ["대학생", "청년", "주거급여수급자"],
                     "current_supply": 31,
                     "exclusive_area_m2": 24.54,
                     "images": "images/수원매산A1/24A.jpg",
@@ -72,7 +72,7 @@
                 },
                 {
                     "type": "24B",
-                    "eligible_residents": ["대학생", "청년"],
+                    "eligible_residents": ["대학생", "청년", "주거급여수급자"],
                     "current_supply": 13,
                     "exclusive_area_m2": 24.99,
                     "images": "images/수원매산A1/24B.jpg",
@@ -121,7 +121,7 @@
                 },
                 {
                     "type": "26AS",
-                    "eligible_residents": ["고령자-주거약자용"],
+                    "eligible_residents": ["고령자(주거약자용)"],
                     "current_supply": 12,
                     "exclusive_area_m2": 26.82,
                     "images": "images/수원매산A1/24AS.jpg",

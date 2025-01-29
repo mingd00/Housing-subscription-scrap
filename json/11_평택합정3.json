@@ -1,7 +1,7 @@
 {
-    "agencyType": "기관(LH, IH 등)",
-    "house_type": "유형(행복 주택, 공공 임대 등)",
-    "default_residence_period": "기본 거주 기간",
+    "agencyType": "LH",
+    "house_type": "영구 임대",
+    "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2025-01-13",
         "application_period": ["2025-02-03", "2025-02-07"],
@@ -23,13 +23,13 @@
             "units": [
                 {
                     "type": "26.34",
-                    "eligible_residents": null,
+                    "eligible_residents": ["가군", "나군"],
                     "current_supply": "47",
                     "exclusive_area_m2": "26.34",
                     "images": "images/평택합정3/26.34.jpg",
                     "target": [
                         {
-                            "group": "가군(생계·의료급여수급자 등)",
+                            "group": "가군",
                             "contract": {
                                 "down_payment": 123850,
                                 "deposit_max": 2477000,
@@ -39,7 +39,7 @@
                             }
                         },
                         {
-                            "group": "나군(일반 등)",
+                            "group": "나군",
                             "contract": {
                                 "down_payment": 210850,
                                 "deposit_max": 4217000,
@@ -52,13 +52,13 @@
                 },
                 {
                     "type": "30.48",
-                    "eligible_residents": null,
+                    "eligible_residents": ["가군", "나군"],
                     "current_supply": "50",
                     "exclusive_area_m2": "30.48",
                     "images": "images/평택합정3/30.48.jpg",
                     "target": [
                         {
-                            "group": "가군(생계·의료급여수급자 등)",
+                            "group": "가군",
                             "contract": {
                                 "down_payment": 143350,
                                 "deposit_max": 2867000,
@@ -68,7 +68,7 @@
                             }
                         },
                         {
-                            "group": "나군(일반 등)",
+                            "group": "나군",
                             "contract": {
                                 "down_payment": 244000,
                                 "deposit_max": 4880000,

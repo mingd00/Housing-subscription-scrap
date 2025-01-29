@@ -23,13 +23,13 @@
             "units": [
                 {
                     "type": "26",
-                    "eligible_residents": null,
+                    "eligible_residents": ["가군", "나군"],
                     "current_supply": "20",
                     "exclusive_area_m2": "26.56",
                     "images": "images/정선신동/26.jpg",
                     "target": [
                         {
-                            "group": "가군(생계·의료급여수급자 등)",
+                            "group": "가군",
                             "contract": {
                                 "down_payment": 120000,
                                 "deposit_max": 2410000,
@@ -39,7 +39,7 @@
                             }
                         },
                         {
-                            "group": "나군(일반 등)",
+                            "group": "나군",
                             "contract": {
                                 "down_payment": 500000,
                                 "deposit_max": 10360000,

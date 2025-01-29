@@ -90,7 +90,7 @@
                 },
                 {
                     "type": "36A",
-                    "eligible_residents": ["신혼부부", "고령자"],
+                    "eligible_residents": ["신혼부부 · 한부모가족", "고령자"],
                     "current_supply": 19,
                     "exclusive_area_m2": "36.5",
                     "images": "images/군산금암/36A.jpg",
@@ -119,7 +119,7 @@
                 },
                 {
                     "type": "44A",
-                    "eligible_residents": ["신혼부부"],
+                    "eligible_residents": ["신혼부부 · 한부모가족", "고령자"],
                     "current_supply": 26,
                     "exclusive_area_m2": "44.98",
                     "images": "images/군산금암/44A.jpg",
@@ -148,7 +148,7 @@
                 },
                 {
                     "type": "44B",
-                    "eligible_residents": ["신혼부부"],
+                    "eligible_residents": ["신혼부부 · 한부모가족", "고령자"],
                     "current_supply": 4,
                     "exclusive_area_m2": "44.98",
                     "images": "images/군산금암/44B.jpg",
@@ -177,7 +177,7 @@
                 },
                 {
                     "type": "46A",
-                    "eligible_residents": ["신혼부부"],
+                    "eligible_residents": ["신혼부부 · 한부모가족", "고령자"],
                     "current_supply": 6,
                     "exclusive_area_m2": "46.55",
                     "images": "images/군산금암/46A.jpg",
