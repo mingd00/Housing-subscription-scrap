@@ -4,7 +4,10 @@
     "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2025-01-16",
-        "application_period": ["2025-02-03", "2025-02-14"],
+        "application_period": [
+            "2025-02-03",
+            "2025-02-14"
+        ],
         "winner_announcement_date": "2025-05-16",
         "contract_period": null,
         "document_submission_deadline": null,
@@ -13,7 +16,10 @@
     "reception_information": {
         "address": null,
         "phone_number": "041-936-0653",
-        "operating_period": ["2025-01-13", "2025-01-13"]
+        "operating_period": [
+            "2025-01-13",
+            "2025-01-13"
+        ]
     },
     "complex_info": [
         {
@@ -23,7 +29,10 @@
             "units": [
                 {
                     "type": "39.1200",
-                    "eligible_residents": ["가군", "나군"],
+                    "eligible_residents": [
+                        "가군",
+                        "나군"
+                    ],
                     "current_supply": "110",
                     "exclusive_area_m2": "26.37",
                     "images": null,

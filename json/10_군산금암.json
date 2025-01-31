@@ -4,7 +4,10 @@
     "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2024-12-31",
-        "application_period": ["2025-01-20", "2025-01-21"],
+        "application_period": [
+            "2025-01-20",
+            "2025-01-21"
+        ],
         "winner_announcement_date": "2025-01-21",
         "contract_period": null,
         "document_submission_deadline": null,
@@ -13,7 +16,10 @@
     "reception_information": {
         "address": "전북특별자치도 전주시 완산구 홍산로 158(효자동2가) LH 전북지역본부 별관 2층 통합접수센터",
         "phone_number": "1600-1004",
-        "operating_period": ["2025-01-20", "2025-01-21"]
+        "operating_period": [
+            "2025-01-20",
+            "2025-01-21"
+        ]
     },
     "complex_info": [
         {
@@ -23,7 +29,10 @@
             "units": [
                 {
                     "type": "21A",
-                    "eligible_residents": ["청년(소득X)", "청년(소득O)"],
+                    "eligible_residents": [
+                        "청년(소득X)",
+                        "청년(소득O)"
+                    ],
                     "current_supply": 31,
                     "exclusive_area_m2": "21.82",
                     "images": "images/군산금암/21A.jpg",
@@ -52,7 +61,9 @@
                 },
                 {
                     "type": "26A",
-                    "eligible_residents": ["주거급여수급자"],
+                    "eligible_residents": [
+                        "주거급여수급자"
+                    ],
                     "current_supply": 7,
                     "exclusive_area_m2": "26.51",
                     "images": "images/군산금암/26A.jpg",
@@ -71,7 +82,9 @@
                 },
                 {
                     "type": "26B",
-                    "eligible_residents": ["고령자(주거약자용)"],
+                    "eligible_residents": [
+                        "고령자(주거약자용)"
+                    ],
                     "current_supply": 8,
                     "exclusive_area_m2": "26.5",
                     "images": "images/군산금암/26B.jpg",
@@ -90,7 +103,11 @@
                 },
                 {
                     "type": "36A",
-                    "eligible_residents": ["신혼부부", "한부모가족", "고령자"],
+                    "eligible_residents": [
+                        "한부모가족",
+                        "고령자",
+                        "신혼부부"
+                    ],
                     "current_supply": 19,
                     "exclusive_area_m2": "36.5",
                     "images": "images/군산금암/36A.jpg",
@@ -119,13 +136,17 @@
                 },
                 {
                     "type": "44A",
-                    "eligible_residents": ["신혼부부", "한부모가족", "고령자"],
+                    "eligible_residents": [
+                        "한부모가족",
+                        "고령자",
+                        "신혼부부"
+                    ],
                     "current_supply": 26,
                     "exclusive_area_m2": "44.98",
                     "images": "images/군산금암/44A.jpg",
                     "target": [
                         {
-                            "group": "신혼부부, 한부모가족",
+                            "group": "신혼부부,한부모가족",
                             "contract": {
                                 "down_payment": 500000,
                                 "deposit_max": 51400000,
@@ -148,7 +169,11 @@
                 },
                 {
                     "type": "44B",
-                    "eligible_residents": ["신혼부부", "한부모가족", "고령자"],
+                    "eligible_residents": [
+                        "한부모가족",
+                        "고령자",
+                        "신혼부부"
+                    ],
                     "current_supply": 4,
                     "exclusive_area_m2": "44.98",
                     "images": "images/군산금암/44B.jpg",
@@ -177,7 +202,11 @@
                 },
                 {
                     "type": "46A",
-                    "eligible_residents": ["신혼부부", "한부모가족", "고령자"],
+                    "eligible_residents": [
+                        "한부모가족",
+                        "고령자",
+                        "신혼부부"
+                    ],
                     "current_supply": 6,
                     "exclusive_area_m2": "46.55",
                     "images": "images/군산금암/46A.jpg",

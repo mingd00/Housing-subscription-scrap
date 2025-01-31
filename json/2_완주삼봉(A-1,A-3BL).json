@@ -4,16 +4,25 @@
     "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2025-01-13",
-        "application_period": ["2025-01-23", "2025-01-23"],
+        "application_period": [
+            "2025-01-23",
+            "2025-01-23"
+        ],
         "winner_announcement_date": "2025-01-23",
-        "contract_period": ["2025-01-23", "2025-01-23"],
+        "contract_period": [
+            "2025-01-23",
+            "2025-01-23"
+        ],
         "document_submission_deadline": null,
         "submission_candidate_announcement_date": null
     },
     "reception_information": {
         "address": "전북특별자치도 전주시 완산구 홍산로 158(효자동2가) LH전북지역본부 별관2층 통합접수센터(동호지정 및 계약체결)",
         "phone_number": "1600-1004",
-        "operating_period": ["2025-01-23", "2025-01-23"]
+        "operating_period": [
+            "2025-01-23",
+            "2025-01-23"
+        ]
     },
     "complex_info": [
         {
@@ -23,7 +32,13 @@
             "units": [
                 {
                     "type": "21A형",
-                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "고령자", "주거급여수급자"],
+                    "eligible_residents": [
+                        "고령자",
+                        "주거급여수급자",
+                        "청년(소득O)",
+                        "대학생",
+                        "청년(소득X)"
+                    ],
                     "current_supply": "18",
                     "exclusive_area_m2": "21.39",
                     "images": "/images/완주삼봉(A1,A3BL)/A1/21A.jpg",
@@ -72,7 +87,13 @@
                 },
                 {
                     "type": "26A1형",
-                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "고령자", "주거급여수급자"],
+                    "eligible_residents": [
+                        "고령자",
+                        "주거급여수급자",
+                        "청년(소득O)",
+                        "대학생",
+                        "청년(소득X)"
+                    ],
                     "current_supply": "7",
                     "exclusive_area_m2": "26.84",
                     "images": "/images/완주삼봉(A1,A3BL)/A1/26A1.jpg",
@@ -121,7 +142,13 @@
                 },
                 {
                     "type": "26B형",
-                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "고령자", "주거급여수급자"],
+                    "eligible_residents": [
+                        "고령자",
+                        "주거급여수급자",
+                        "청년(소득O)",
+                        "대학생",
+                        "청년(소득X)"
+                    ],
                     "current_supply": "6",
                     "exclusive_area_m2": "26.72",
                     "images": "/images/완주삼봉(A1,A3BL)/A1/26B.jpg",
@@ -183,7 +210,13 @@
             "units": [
                 {
                     "type": "16형",
-                    "eligible_residents": ["대학생", "청년(소득X)", "청년(소득O)", "고령자", "주거급여수급자"],
+                    "eligible_residents": [
+                        "고령자",
+                        "주거급여수급자",
+                        "청년(소득O)",
+                        "대학생",
+                        "청년(소득X)"
+                    ],
                     "current_supply": "23",
                     "exclusive_area_m2": "16.54",
                     "images": "/images/완주삼봉(A1,A3BL)/A3BL/16.jpg",

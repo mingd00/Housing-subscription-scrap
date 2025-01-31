@@ -4,16 +4,28 @@
     "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2025-01-09",
-        "application_period": ["2025-01-21", "2025-01-23"],
+        "application_period": [
+            "2025-01-21",
+            "2025-01-23"
+        ],
         "winner_announcement_date": "2025-04-18",
-        "contract_period": ["2025-04-28", "2025-04-30"],
-        "document_submission_deadline": ["2025-02-05", "2025-02-07"],
+        "contract_period": [
+            "2025-04-28",
+            "2025-04-30"
+        ],
+        "document_submission_deadline": [
+            "2025-02-05",
+            "2025-02-07"
+        ],
         "submission_candidate_announcement_date": "2025-02-04"
     },
     "reception_information": {
         "address": "전북특별자치도 완주군 소양면 소양로 161 소양면 행정복지센터 1층 대회의실",
         "phone_number": "1600-1004",
-        "operating_period": ["2025-01-23", "2025-01-23"]
+        "operating_period": [
+            "2025-01-23",
+            "2025-01-23"
+        ]
     },
     "complex_info": [
         {

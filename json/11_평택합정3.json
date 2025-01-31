@@ -4,7 +4,10 @@
     "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2025-01-13",
-        "application_period": ["2025-02-03", "2025-02-07"],
+        "application_period": [
+            "2025-02-03",
+            "2025-02-07"
+        ],
         "winner_announcement_date": "2025-04-25",
         "contract_period": null,
         "document_submission_deadline": null,
@@ -13,7 +16,10 @@
     "reception_information": {
         "address": "경기도 평택시 평택로 22(합정동,주공아파트 3단지)",
         "phone_number": "1600-1004",
-        "operating_period": ["2025-01-13", "2025-02-07"]
+        "operating_period": [
+            "2025-01-13",
+            "2025-02-07"
+        ]
     },
     "complex_info": [
         {
@@ -23,7 +29,10 @@
             "units": [
                 {
                     "type": "26.34",
-                    "eligible_residents": ["가군", "나군"],
+                    "eligible_residents": [
+                        "가군",
+                        "나군"
+                    ],
                     "current_supply": "47",
                     "exclusive_area_m2": "26.34",
                     "images": "images/평택합정3/26.34.jpg",
@@ -52,7 +61,10 @@
                 },
                 {
                     "type": "30.48",
-                    "eligible_residents": ["가군", "나군"],
+                    "eligible_residents": [
+                        "가군",
+                        "나군"
+                    ],
                     "current_supply": "50",
                     "exclusive_area_m2": "30.48",
                     "images": "images/평택합정3/30.48.jpg",

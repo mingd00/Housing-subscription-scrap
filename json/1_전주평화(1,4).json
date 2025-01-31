@@ -4,7 +4,10 @@
     "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2025-01-15",
-        "application_period": ["2025-02-07", "2025-02-14"],
+        "application_period": [
+            "2025-02-07",
+            "2025-02-14"
+        ],
         "winner_announcement_date": "2025-06-26",
         "contract_period": null,
         "document_submission_deadline": null,
@@ -13,7 +16,10 @@
     "reception_information": {
         "address": "전주시 거주지 행정복지센터(구, 주민센터)",
         "phone_number": "전주시 거주지 행정복지센터(구, 주민센터)",
-        "operating_period": ["2025-02-07", "2025-02-14"]
+        "operating_period": [
+            "2025-02-07",
+            "2025-02-14"
+        ]
     },
     "complex_info": [
         {
@@ -23,7 +29,10 @@
             "units": [
                 {
                     "type": "39.8800",
-                    "eligible_residents": ["가군", "나군"],
+                    "eligible_residents": [
+                        "가군",
+                        "나군"
+                    ],
                     "current_supply": "411",
                     "exclusive_area_m2": "26.37",
                     "images": null,
@@ -52,7 +61,10 @@
                 },
                 {
                     "type": "44.1400",
-                    "eligible_residents": ["가군", "나군"],
+                    "eligible_residents": [
+                        "가군",
+                        "나군"
+                    ],
                     "current_supply": "5",
                     "exclusive_area_m2": "31.32",
                     "images": null,
@@ -81,7 +93,10 @@
                 },
                 {
                     "type": "56.8300",
-                    "eligible_residents": ["가군", "나군"],
+                    "eligible_residents": [
+                        "가군",
+                        "나군"
+                    ],
                     "current_supply": "5",
                     "exclusive_area_m2": "40.32",
                     "images": null,
@@ -123,7 +138,10 @@
             "units": [
                 {
                     "type": "39.6011",
-                    "eligible_residents": ["가군", "나군"],
+                    "eligible_residents": [
+                        "가군",
+                        "나군"
+                    ],
                     "current_supply": "200",
                     "exclusive_area_m2": "26.37",
                     "images": null,

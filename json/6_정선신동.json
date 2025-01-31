@@ -4,7 +4,10 @@
     "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2025-01-06",
-        "application_period": ["2025-01-20", "2025-01-24"],
+        "application_period": [
+            "2025-01-20",
+            "2025-01-24"
+        ],
         "winner_announcement_date": "2025-04-22",
         "contract_period": null,
         "document_submission_deadline": null,
@@ -13,7 +16,10 @@
     "reception_information": {
         "address": "강원특별자치도 정선군 정선읍 봉양3길 21 ,정선군 관할 읍,면,동 행정복지센터",
         "phone_number": "1600-1004",
-        "operating_period": ["2025-01-20", "2025-01-24"]
+        "operating_period": [
+            "2025-01-20",
+            "2025-01-24"
+        ]
     },
     "complex_info": [
         {
@@ -23,7 +29,10 @@
             "units": [
                 {
                     "type": "26",
-                    "eligible_residents": ["가군", "나군"],
+                    "eligible_residents": [
+                        "가군",
+                        "나군"
+                    ],
                     "current_supply": "20",
                     "exclusive_area_m2": "26.56",
                     "images": "images/정선신동/26.jpg",

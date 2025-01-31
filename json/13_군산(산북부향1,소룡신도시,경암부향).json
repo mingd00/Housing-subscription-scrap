@@ -4,7 +4,10 @@
     "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2024-11-18",
-        "application_period": ["2024-11-26", "2025-06-30"],
+        "application_period": [
+            "2024-11-26",
+            "2025-06-30"
+        ],
         "winner_announcement_date": "2025-07-01",
         "contract_period": null,
         "document_submission_deadline": null,
@@ -13,7 +16,10 @@
     "reception_information": {
         "address": "전북특별자치도 익산시 선화로3길 16-10(모현동1가) 5층 LH익산권주거복지지사",
         "phone_number": "063-840-0900",
-        "operating_period": ["2024-11-26", "2025-06-30"]
+        "operating_period": [
+            "2024-11-26",
+            "2025-06-30"
+        ]
     },
     "complex_info": [
         {

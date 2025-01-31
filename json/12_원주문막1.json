@@ -4,7 +4,10 @@
     "default_residence_period": 2,
     "schedule": {
         "announcement_date": "2024-12-23",
-        "application_period": ["2025-01-08", "2025-01-22"],
+        "application_period": [
+            "2025-01-08",
+            "2025-01-22"
+        ],
         "winner_announcement_date": "2025-01-22",
         "contract_period": null,
         "document_submission_deadline": null,
@@ -13,7 +16,10 @@
     "reception_information": {
         "address": "강원특별자치도 원주시 문막읍 원문로 1684(원주문막주공아파트) 관리사무소",
         "phone_number": "0337340180",
-        "operating_period": ["2025-01-08", "2025-01-22"]
+        "operating_period": [
+            "2025-01-08",
+            "2025-01-22"
+        ]
     },
     "complex_info": [
         {
