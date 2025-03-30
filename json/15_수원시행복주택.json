@@ -1,0 +1,177 @@
+{
+    "agencyType": "LH",
+    "house_type": "행복주택",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-20",
+        "application_period": [
+            "2025-02-03",
+            "2025-02-05"
+        ],
+        "winner_announcement_date": "2025-05-08",
+        "contract_period": null,
+        "document_submission_deadline": null,
+        "submission_candidate_announcement_date": "2025-02-11"
+    },
+    "reception_information": {
+        "address": "경기도 수원시 영통구 광교로 146(이의동) 안효빌딩 11층, LH수원권주거복지지사",
+        "phone_number": "1600-1004",
+        "operating_period": [
+            "2025-02-03",
+            "2025-02-05"
+        ]
+    },
+    "complex_info": [
+        {
+            "complex_name": "수원고등2(C1블록) 행복주택",
+            "location": "경기도 수원시 팔달구 고등로 8(고등동)",
+            "heating": "지역난방",
+            "units": [
+                {
+                    "type": "36A형",
+                    "eligible_residents": null,
+                    "current_supply": "40",
+                    "exclusive_area_m2": "36.63",
+                    "images": "images／수원시지역행복／수원고등2(C1블록)／36A.jpg"
+                },
+                {
+                    "type": "36A형",
+                    "eligible_residents": null,
+                    "current_supply": "30",
+                    "exclusive_area_m2": "36.63",
+                    "images": "images／수원시지역행복／수원고등2(C1블록)／36A.jpg"
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": "images／수원시지역행복／수원고등2(C1블록)／complex_overview.jpg",
+                "complex_site_plan": "images／수원시지역행복／수원고등2(C1블록)／complex_site_plan.jpg",
+                "unit_layout_plan": null
+            }
+        },
+        {
+            "complex_name": "수원호매실21(A-7블록)단지 행복주택",
+            "location": "경기도 수원시 권선구 호매실로 103(호매실동,엘에이치호매실스타힐스)",
+            "heating": "지역난방",
+            "units": [
+                {
+                    "type": "21형",
+                    "eligible_residents": null,
+                    "current_supply": "5",
+                    "exclusive_area_m2": "21.49",
+                    "images": "images／수원시지역행복／수원호매실21(A-7블록)／21.jpg"
+                },
+                {
+                    "type": "21형",
+                    "eligible_residents": null,
+                    "current_supply": "40",
+                    "exclusive_area_m2": "21.49",
+                    "images": "images／수원시지역행복／수원호매실21(A-7블록)／21.jpg"
+                },
+                {
+                    "type": "26형",
+                    "eligible_residents": null,
+                    "current_supply": "5",
+                    "exclusive_area_m2": "26.51",
+                    "images": "images／수원시지역행복／수원호매실21(A-7블록)／26.jpg"
+                },
+                {
+                    "type": "26형",
+                    "eligible_residents": null,
+                    "current_supply": "50",
+                    "exclusive_area_m2": "26.51",
+                    "images": "images／수원시지역행복／수원호매실21(A-7블록)／26.jpg"
+                },
+                {
+                    "type": "26형",
+                    "eligible_residents": null,
+                    "current_supply": "20",
+                    "exclusive_area_m2": "26.51",
+                    "images": "images／수원시지역행복／수원호매실21(A-7블록)／26.jpg"
+                },
+                {
+                    "type": "36형",
+                    "eligible_residents": null,
+                    "current_supply": "40",
+                    "exclusive_area_m2": "36.38",
+                    "images": "images／수원시지역행복／수원호매실21(A-7블록)／36.jpg"
+                }
+            ],
+            "house_images": {
+                "location_map": "images／수원시지역행복／수원호매실21(A-7블록)／location_map.jpg",
+                "complex_overview": "images／수원시지역행복／수원호매실21(A-7블록)／complex_overview.jpg",
+                "complex_site_plan": "images／수원시지역행복／수원호매실21(A-7블록)／complex_site_plan.jpg",
+                "unit_layout_plan": null
+            }
+        },
+        {
+            "complex_name": "수원당수 A-1블록 행복주택",
+            "location": "경기도 수원시 권선구 당수로130번길 13(당수동)",
+            "heating": "지역난방",
+            "units": [
+                {
+                    "type": "14A",
+                    "eligible_residents": null,
+                    "current_supply": "50",
+                    "exclusive_area_m2": "14.91",
+                    "images": "images/수원시지역행복/수원당수 A-1/14A"
+                },
+                {
+                    "type": "14B",
+                    "eligible_residents": null,
+                    "current_supply": "80",
+                    "exclusive_area_m2": "14.87",
+                    "images": "images/수원시지역행복/수원당수 A-1/14B"
+                },
+                {
+                    "type": "26B",
+                    "eligible_residents": null,
+                    "current_supply": "60",
+                    "exclusive_area_m2": "26.88",
+                    "images": "images/수원시지역행복/수원당수 A-1/26B"
+                },
+                {
+                    "type": "26C",
+                    "eligible_residents": null,
+                    "current_supply": "60",
+                    "exclusive_area_m2": "26.57",
+                    "images": "images/수원시지역행복/수원당수 A-1/26C"
+                },
+                {
+                    "type": "26D",
+                    "eligible_residents": null,
+                    "current_supply": "5",
+                    "exclusive_area_m2": "26.88",
+                    "images": "images/수원시지역행복/수원당수 A-1/26D"
+                },
+                {
+                    "type": "36B",
+                    "eligible_residents": null,
+                    "current_supply": "5",
+                    "exclusive_area_m2": "36.84",
+                    "images": "images/수원시지역행복/수원당수 A-1/36B"
+                },
+                {
+                    "type": "44A",
+                    "eligible_residents": null,
+                    "current_supply": "60",
+                    "exclusive_area_m2": "44.59",
+                    "images": "images/수원시지역행복/수원당수 A-1/44A"
+                },
+                {
+                    "type": "44A",
+                    "eligible_residents": null,
+                    "current_supply": "20",
+                    "exclusive_area_m2": "44.59",
+                    "images": "images/수원시지역행복/수원당수 A-1/44A"
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": "images/수원시지역행복/수원당수 A-1/complex_overview.jpg",
+                "complex_site_plan": "images/수원시지역행복/수원당수 A-1/complex_site_plan.jpg",
+                "unit_layout_plan": null
+            }
+        }
+    ]
+}
