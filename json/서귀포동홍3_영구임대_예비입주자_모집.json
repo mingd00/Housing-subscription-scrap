@@ -1,0 +1,47 @@
+{
+    "agencyType": "LH",
+    "house_type": "영구임대",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-20",
+        "application_period": [
+            "2025-02-03",
+            "2025-02-05"
+        ],
+        "winner_announcement_date": "2025-05-22",
+        "contract_period": null,
+        "document_submission_deadline": null,
+        "submission_candidate_announcement_date": null
+    },
+    "reception_information": {
+        "address": "제주특별자치도 서귀포시 태평로512번길 9(동홍동,동홍3주공아파트) 동홍3관리사무소",
+        "phone_number": "064-732-0729",
+        "operating_period": [
+            "2025-02-03",
+            "2025-02-05"
+        ]
+    },
+    "complex_info": [
+        {
+            "complex_name": "서귀포 동홍(3)",
+            "location": "제주특별자치도 서귀포시 태평로512번길 9(동홍동,동홍3주공아파트)",
+            "heating": "개별유류난방",
+            "units": [
+                {
+                    "type": "40.9400",
+                    "eligible_residents": null,
+                    "current_supply": "100",
+                    "exclusive_area_m2": "26.34",
+                    "images": null
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": null,
+                "complex_site_plan": null,
+                "unit_layout_plan": null
+            }
+        }
+    ],
+    "housing_supply": []
+}
