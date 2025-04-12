@@ -1,0 +1,53 @@
+{
+    "agencyType": "LH",
+    "house_type": "공공임대",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-20",
+        "application_period": [
+            "2025-02-14",
+            "2025-02-14"
+        ],
+        "winner_announcement_date": "2025-04-11",
+        "contract_period": [
+            "2025-04-14",
+            "2026-04-14"
+        ],
+        "document_submission_deadline": [
+            "2025-02-14",
+            "2025-02-14"
+        ],
+        "submission_candidate_announcement_date": "2025-02-21"
+    },
+    "reception_information": {
+        "address": "전북특별자치도 익산시 부송1로 17(어양동,어양주공아파트) 익산어양주공 4단지",
+        "phone_number": "063-832-8372",
+        "operating_period": [
+            "2025-02-14",
+            "2025-02-14"
+        ]
+    },
+    "complex_info": [
+        {
+            "complex_name": "익산어양4",
+            "location": "전북특별자치도 익산시 부송1로 17(어양동,주공4차아파트)",
+            "heating": "개별가스난방",
+            "units": [
+                {
+                    "type": "00068A",
+                    "eligible_residents": null,
+                    "current_supply": "40",
+                    "exclusive_area_m2": "49.62",
+                    "images": null
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": null,
+                "complex_site_plan": null,
+                "unit_layout_plan": null
+            }
+        }
+    ],
+    "housing_supply": []
+}
