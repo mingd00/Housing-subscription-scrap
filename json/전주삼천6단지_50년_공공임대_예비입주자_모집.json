@@ -1,0 +1,53 @@
+{
+    "agencyType": "LH",
+    "house_type": "공공임대",
+    "default_residence_period": 2,
+    "schedule": {
+        "announcement_date": "2025-01-20",
+        "application_period": [
+            "2025-02-03",
+            "2025-02-03"
+        ],
+        "winner_announcement_date": "2025-04-17",
+        "contract_period": [
+            "2025-04-18",
+            "2026-04-17"
+        ],
+        "document_submission_deadline": [
+            "2025-02-14",
+            "2025-02-20"
+        ],
+        "submission_candidate_announcement_date": "2025-02-13"
+    },
+    "reception_information": {
+        "address": "전북특별자치도 전주시 완산구 삼천천변1길 9(삼천동1가,삼천주공6단지)",
+        "phone_number": "063-228-3584",
+        "operating_period": [
+            "2025-01-20",
+            "2025-04-17"
+        ]
+    },
+    "complex_info": [
+        {
+            "complex_name": "전주삼천주공6단지",
+            "location": "전북특별자치도 전주시 완산구 삼천천변1길 9(삼천동1가,삼천주공6단지)",
+            "heating": "개별가스난방",
+            "units": [
+                {
+                    "type": "681553",
+                    "eligible_residents": null,
+                    "current_supply": "20",
+                    "exclusive_area_m2": "39.63",
+                    "images": null
+                }
+            ],
+            "house_images": {
+                "location_map": null,
+                "complex_overview": null,
+                "complex_site_plan": null,
+                "unit_layout_plan": null
+            }
+        }
+    ],
+    "housing_supply": []
+}
